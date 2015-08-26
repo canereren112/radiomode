@@ -1,0 +1,61 @@
+/* 
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+
+
+
+$(document).ready(function() {
+    
+   
+  $('span.duration').each(function(){
+        length = parseInt($(this).html());
+        length = parseInt(length / 1000);
+        minute = parseInt(length / 60);
+        second = parseInt(length % 60);
+        $(this).html( minute + ":" + second);
+        $(this).removeClass('duration');
+    });
+    
+    //Buy Heart ve Shop simgelerinin görünüp saklanması olayı
+    $(".box_icons").hide();
+    $('.popular_song_list_grid_0,.popular_song_list_grid_1').hover(function() {
+        //$(".user_songs_heart_image").hide();
+        var name = "#" + $(this).attr("id");
+        name = name + " .box_icons";
+        $(name).show();
+    }, function() {
+        var name = "#" + $(this).attr("id");
+        name = name + " .box_icons";
+        $(name).hide();
+    });
+    
+    //Pagination Codes starting 
+    count =  0;  
+    $(".jPag-pages a").click(function(){
+        var currentPage =$(this).text(); 
+        var artistID =$(".artistId").text(); 
+        var url = "artistList/songs/"+ currentPage+"/artistNO/" + artistID;
+        $('.artist_popular_song_list_container').load(url);
+        return true;
+    });
+    
+    $(".jPag-first").click(function(){
+        var artistID =$(".artistId").text(); 
+        var url = "artistList/songs/1/artistNO/"+artistID;
+        $('.artist_popular_song_list_container').load(url);
+        return true;
+    });
+    
+    $(".jPag-last").click(function(){
+        var lastPage =$(".songPageNumberOfArtist").text(); 
+        var artistID =$(".artistId").text(); 
+        var url = "artistList/songs/"+lastPage+"/artistNO/"+artistID;
+        $('.artist_popular_song_list_container').load(url);
+        return true;
+    });
+    //Pagination Codes finishes
+
+    calculateBigPageHeight();
+});

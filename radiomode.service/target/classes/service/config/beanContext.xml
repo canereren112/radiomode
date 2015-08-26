@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+       http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+       http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
+       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+    <context:annotation-config />
+
+    <!-- Servis Siniflari -->
+    <bean name="albumService" class="com.eren.radiomode.service.impl.AlbumServiceImpl">
+    </bean>
+
+    <bean name="artistService" class="com.eren.radiomode.service.impl.ArtistServiceImpl">
+    </bean>
+
+    <bean name="blockedUsersService" class="com.eren.radiomode.service.impl.BlockedUsersServiceImpl">
+    </bean>
+
+    <bean name="cityService" class="com.eren.radiomode.service.impl.CityServiceImpl">
+    </bean>
+
+    <bean name="commentService" class="com.eren.radiomode.service.impl.CommentServiceImpl">
+    </bean>
+
+    <bean name="concertRequestService" class="com.eren.radiomode.service.impl.ConcertRequestServiceImpl">
+    </bean>
+
+    <bean name="contentService" class="com.eren.radiomode.service.impl.ContentServiceImpl">
+    </bean>
+
+    <bean name="countryService" class="com.eren.radiomode.service.impl.CountryServiceImpl">
+    </bean>
+
+    <bean name="dataCollectionService" class="com.eren.radiomode.service.impl.DataCollectionServiceImpl">
+    </bean>
+
+    <bean name="editProfileService" class="com.eren.radiomode.service.impl.EditProfileServiceImpl">
+    </bean>
+
+    <bean name="emailListService" class="com.eren.radiomode.service.impl.EmailListServiceImpl">
+    </bean>
+
+    <bean name="eventService" class="com.eren.radiomode.service.impl.EventServiceImpl">
+    </bean>
+
+    <bean name="forumService" class="com.eren.radiomode.service.impl.ForumServiceImpl">
+    </bean>
+
+    <bean name="friendListService" class="com.eren.radiomode.service.impl.FriendListServiceImpl">
+    </bean>
+
+    <bean name="genreService" class="com.eren.radiomode.service.impl.GenreServiceImpl">
+    </bean>
+
+    <bean name="groupService" class="com.eren.radiomode.service.impl.GroupServiceImpl">
+    </bean>
+
+    <bean name="languageService" class="com.eren.radiomode.service.impl.LanguageServiceImpl">
+    </bean>
+    
+    <bean name="listenHistoryService" class="com.eren.radiomode.service.impl.ListenHistoryServiceImpl">
+    </bean>
+
+    <bean name="messageService" class="com.eren.radiomode.service.impl.MessageServiceImpl">
+    </bean>
+
+    <bean name="newsService" class="com.eren.radiomode.service.impl.NewsServiceImpl">
+    </bean>
+
+    <bean name="radioCreateService" class="com.eren.radiomode.service.impl.RadioCreateServiceImpl">
+    </bean>
+
+    <bean name="radioPlayService" class="com.eren.radiomode.service.impl.RadioPlayServiceImpl">
+    </bean>
+
+    <bean name="radioService" class="com.eren.radiomode.service.impl.RadioServiceImpl">
+    </bean>
+
+    <bean name="signupService" class="com.eren.radiomode.service.impl.SignUpServiceImpl">
+    </bean>
+
+    <bean name="songService" class="com.eren.radiomode.service.impl.SongServiceImpl">
+    </bean>
+
+    <bean name="userActivationService" class="com.eren.radiomode.service.impl.UserActivationServiceImpl">
+    </bean>
+
+    <bean name="userService" class="com.eren.radiomode.service.impl.UserServiceImpl">
+    </bean>
+
+    <bean name="videoService" class="com.eren.radiomode.service.impl.VideoServiceImpl">
+    </bean>
+
+    <bean name="tagService" class="com.eren.radiomode.service.impl.TagServiceImpl">
+    </bean>
+
+    <bean name="viewProfileService" class="com.eren.radiomode.service.impl.ViewProfileServiceImpl">
+    </bean>
+
+    <bean name="entityService" class="com.eren.radiomode.service.parent.EntityService" parent="entityDAO" autowire="byName">
+    </bean>
+
+    <bean name="serviceFactory" class="com.eren.radiomode.service.parent.ServiceFactory">
+    </bean>
+    <!-- Servis Siniflari -->
+    
+    <bean name="playRecommender" class="com.eren.radiomode.recommend.impl.PlayRecommenderImpl" scope="prototype">
+    </bean>
+
+    <bean name="similiarity" class="com.eren.radiomode.recommend.impl.CosineSimilarity" scope="prototype">
+    </bean>
+
+    <bean id="util" class="com.eren.radiomode.service.util.UtilImpl">
+    </bean>
+
+    <bean id="sendMail" class="com.eren.radiomode.service.util.SendMail">
+    </bean>
+</beans>

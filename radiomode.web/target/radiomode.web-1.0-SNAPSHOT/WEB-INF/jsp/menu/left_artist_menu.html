@@ -1,0 +1,106 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+    <head>
+    <title></title>
+    <meta http-equiv="left_menu_content-Type" left_menu_content="text/html; charset=UTF-8">
+
+
+    <script type="text/javascript">
+        $('a.left_menu_content').each(function () {
+            $('<div class="fader" />').css('opacity', 0).prependTo(this);
+        }).hover(function () {
+            $('span', this).animate({
+                marginLeft : 5
+            }, 250);
+
+            $('.fader', this).animate({
+                opacity : 0.15
+            });
+
+        }, function () {
+            $('span', this).animate({
+                marginLeft : 10
+            }, 250);
+
+            $('.fader', this).animate({
+                opacity : 0
+            });
+        }).find('span').css('marginLeft', 10);
+
+    </script>
+</head>
+<body>
+
+
+<div class="left_menu_content" >
+    <ul class="content_shadow">
+        <li id="left_menu_link_1"><a id="profileLink" class="left_menu_links profileMore" href="#">
+                <img class="left_menu_icons" src="static/images/icons/left_artist_menu_icons/profile.png"/>
+                <span class="left_hidden_div_1"> </span>
+                <span>Artist</span></a></li>
+        <li><a id="biographyLink"  class="left_menu_links biographyMore" href="#">
+                <img class="left_menu_icons" src="static/images/icons/left_artist_menu_icons/biography.png"/>
+                <span class="left_hidden_div"> </span>
+                <span>Biography</span></a></li>
+        <!--
+<li><a id="picturesLink"  class="left_menu_links" href="#">
+        <img class="left_menu_icons"  src="static/images/icons/left_artist_menu_icons/pictures.png"/>
+        <span class="left_hidden_div"> </span>
+        <span>Pictures</span></a></li>
+        -->
+        <li><a id="albumsLink"  class="left_menu_links albumsMore" href="#">
+                <img class="left_menu_icons" src="static/images/icons/left_artist_menu_icons/jewel.png"/>
+                <img class="left_menu_icons_album_cover left_menu_icons" src="static/images/icons/left_artist_menu_icons/blank_insert.gif"/>
+                <span class="left_hidden_div"> </span>
+                <span>Albums</span></a></li>
+        <li><a id="songsLink"  class="left_menu_links songsMore" href="#">
+                <img class="left_menu_icons" src="static/images/icons/left_artist_menu_icons/songs.png"/>
+                <span class="left_hidden_div"> </span>
+                <span>Songs</span></a></li>
+        <!--  <li><a id="stationsLink"   class="left_menu_links" href="#">
+                  <img class="left_menu_icons" src="static/images/icons/left_artist_menu_icons/featured_stations.png"/>
+                  <span class="left_hidden_div"> </span>
+                  <span>Featured Stations</span></a></li> -->
+        <li><a id="similiarArtistsLink"  class="left_menu_links similiarArtistsMore" href="#">
+                <img class="left_menu_icons" src="static/images/icons/left_artist_menu_icons/similar_artist.png"/>
+                <span class="left_hidden_div"> </span>
+                <span>Similar Artists</span></a></li>
+        <!-- <li><a id="tagsLink"   class="left_menu_links" href="#">
+                 <img class="left_menu_icons" src="static/images/icons/left_artist_menu_icons/tags.png"/>
+                 <span class="left_hidden_div"> </span>
+                 <span>Tags</span></a></li>-->
+        <!--
+        <li><a id="moreInfoLink"  class="left_menu_links moreInfoMore" href="#">
+                <img class="left_menu_icons" src="static/images/icons/left_artist_menu_icons/more_information.png"/>
+                <span class="left_hidden_div"> </span>
+                <span>More Information</span></a></li>
+        -->
+        <!--
+        <li><a id="eventsLink" href="#"><span>Events</span></a></li>
+        <li><a id="newsLink" href="#"><span>News</span></a></li
+        -->
+        <li><a id="listenersLink"  class="left_menu_links listenersMore" href="#">
+                <img class="left_menu_icons" src="static/images/icons/left_artist_menu_icons/listeners.png"/>
+                <span class="left_hidden_div"> </span>
+                <span>Listeners</span></a></li>
+        <li><a id="activityLink"  class="left_menu_links activityMore" href="#">
+                <img class="left_menu_icons" src="static/images/icons/left_artist_menu_icons/taskmanager.png"/>
+                <span class="left_hidden_div"> </span>
+                <span>Activity</span></a></li>
+        <li><a id="commentsLink"  class="left_menu_links commentsMore" href="#">
+                <img class="left_menu_icons" src="static/images/icons/left_artist_menu_icons/comments.png"/>
+                <span class="left_hidden_div"> </span>
+                <span>Comments</span></a></li>
+        <!--   <li><a id="storeLink"   class="left_menu_links" href="#">
+                   <img class="left_menu_icons" src="static/images/icons/left_artist_menu_icons/store.png"/>
+                   <span class="left_hidden_div"> </span>
+                   <span>Store</span></a></li> -->
+    </ul>
+</div>
+
+</body>
+</html>

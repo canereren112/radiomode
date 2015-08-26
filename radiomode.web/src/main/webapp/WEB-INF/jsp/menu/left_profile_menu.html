@@ -1,0 +1,85 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+    <head>
+    <title></title>
+    <meta http-equiv="left_menu_content-Type" left_menu_content="text/html; charset=UTF-8">
+
+    <script type="text/javascript">
+        $('a.left_menu_content').each(function () {
+            $('<div class="fader" />').css('opacity', 0).prependTo(this);
+        }).hover(function () {
+            $('span', this).animate({
+                marginLeft : 5
+            }, 250);
+
+            $('.fader', this).animate({
+                opacity : 0.15
+            });
+
+        }, function () {
+            $('span', this).animate({
+                marginLeft : 10
+            }, 250);
+
+            $('.fader', this).animate({
+                opacity : 0
+            });
+        }).find('span').css('marginLeft', 10);
+
+    </script>
+</head>
+<body>
+<div class="left_menu_content" >
+
+    <ul class="content_shadow">
+        <li id="left_menu_link_1"><a id="profile_profileLink" class="left_menu_links profile_general" href="#">
+                <img class="left_menu_icons" src="static/images/icons/left_profile_menu_icons/profile.png"/>
+               <span class="left_hidden_div_1"> </span>
+                <span>Profile</span></a></li>
+        <li><a id="about_me_Link"  class="left_menu_links about_me_More" href="#">
+                <img class="left_menu_icons" src="static/images/icons/left_profile_menu_icons/biography.png"/>
+               <span class="left_hidden_div"> </span>
+                <span>About me</span></a></li>
+
+        <li><a id="profile_music_boxLink"  class="left_menu_links profile_music_boxMore" href="#">
+                <img class="left_menu_icons"  src="static/images/icons/left_profile_menu_icons/music_box.png"/>
+               <span class="left_hidden_div"> </span>
+                <span>Music Box</span></a></li>
+
+        <li><a id="profile_friendsLink"  class="left_menu_links profile_friendsMore" href="#">
+                <img class="left_menu_icons" src="static/images/icons/left_profile_menu_icons/friends.png"/>
+               <span class="left_hidden_div"> </span>
+                <span>Friends</span></a></li>
+        <li><a id="profile_neighboursLink"   class="left_menu_links profile_neighboursMore" href="#">
+                <img class="left_menu_icons" src="static/images/icons/left_profile_menu_icons/neighbours.png"/>
+               <span class="left_hidden_div"> </span>
+                <span>Neighbours</span></a></li>
+        <!-- <li><a id="profile_groupsLink"  class="left_menu_links" href="#">
+                 <img class="left_menu_icons" src="static/images/icons/left_profile_menu_icons/groups.png"/>
+                <span class="left_hidden_div"> </span>
+                 <span>Groups</span></a></li>
+         <li><a id="profile_eventsLink"  class="left_menu_links" href="#">
+                 <img class="left_menu_icons" src="static/images/icons/left_profile_menu_icons/events.png"/>
+                <span class="left_hidden_div"> </span>
+                 <span>Events</span></a></li> -->
+
+        <li><a id="profile_activityLink"  class="left_menu_links activity_More" href="#">
+                <img class="left_menu_icons" src="static/images/icons/left_profile_menu_icons/taskmanager.png"/>
+               <span class="left_hidden_div"> </span>
+                <span>Activitiy</span></a></li>
+
+        <li><a id="profile_wallLink"  class="left_menu_links all_commentsMore" href="#">
+                <img class="left_menu_icons" src="static/images/icons/left_profile_menu_icons/wall.png"/>
+               <span class="left_hidden_div"> </span>
+                <span>Comments</span></a></li>
+    </ul>
+
+
+</div>
+
+</body>
+</html>

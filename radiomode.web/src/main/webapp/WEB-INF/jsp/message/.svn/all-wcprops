@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/!svn/ver/873/trunk/XMode/radiomode.web/src/main/webapp/WEB-INF/jsp/message
+END
+message_read.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/877/trunk/XMode/radiomode.web/src/main/webapp/WEB-INF/jsp/message/message_read.jsp
+END
+message_inbox.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/873/trunk/XMode/radiomode.web/src/main/webapp/WEB-INF/jsp/message/message_inbox.jsp
+END
+message_sent.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/873/trunk/XMode/radiomode.web/src/main/webapp/WEB-INF/jsp/message/message_sent.jsp
+END
+message_reply.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/877/trunk/XMode/radiomode.web/src/main/webapp/WEB-INF/jsp/message/message_reply.jsp
+END
+message_create.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/877/trunk/XMode/radiomode.web/src/main/webapp/WEB-INF/jsp/message/message_create.jsp
+END

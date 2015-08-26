@@ -1,0 +1,52 @@
+
+
+$(document).ready(function() {
+ 
+    
+    $('span.duration').each(function(){
+        length = parseInt($(this).html());
+        length = parseInt(length / 1000);
+        minute = parseInt(length / 60);
+        second = parseInt(length % 60);
+        $(this).html( minute + ":" + second);
+        $(this).removeClass('duration');
+    });
+
+      
+    $(".jPag-pages a").click(function(){
+        var currentPage =$(this).text(); 
+        var albumID =$(".songAlbumID").text(); 
+        var url = "albumList/songs/"+ currentPage+"/albumNO/" + albumID;
+        $('.song_list_container').load(url);
+        return true;
+    });
+    
+    $(".jPag-first").click(function(){
+        var albumID =$(".songAlbumID").text(); 
+        var url = "albumList/songs/1/albumNO/"+albumID;
+        $('.song_list_container').load(url);
+        return true;
+    });
+    
+    $(".jPag-last").click(function(){
+        var lastPage =$(".songPageNumberOfAlbum").text(); 
+        var albumID =$(".songAlbumID").text(); 
+        var url = "albumList/songs/"+lastPage+"/albumNO/"+albumID;
+        $('.song_list_container').load(url);
+        return true;
+    });
+    
+   
+   $(".album_more_songs_box_buttons").hide();
+    $('.artist_album_song_list_grid_0,.artist_album_song_list_grid_1').hover(function() {
+        //$(".user_songs_heart_image").hide();
+        var name = "#" + $(this).attr("id");
+        name = name + " .album_more_songs_box_buttons";
+        $(name).show();
+    }, function() {
+        var name = "#" + $(this).attr("id");
+        name = name + " .album_more_songs_box_buttons";
+        $(name).hide();
+    });
+    calculateBigPageHeight();
+});

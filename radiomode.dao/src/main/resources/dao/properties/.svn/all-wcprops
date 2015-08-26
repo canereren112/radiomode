@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/!svn/ver/720/trunk/XMode/radiomode.dao/src/main/resources/dao/properties
+END
+log4j.properties
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/720/trunk/XMode/radiomode.dao/src/main/resources/dao/properties/log4j.properties
+END
+jdbc.properties
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/696/trunk/XMode/radiomode.dao/src/main/resources/dao/properties/jdbc.properties
+END

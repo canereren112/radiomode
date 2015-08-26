@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/!svn/ver/832/trunk/XMode/radiomode.web/src/main/webapp/WEB-INF/jsp/radio
+END
+create_station.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/739/trunk/XMode/radiomode.web/src/main/webapp/WEB-INF/jsp/radio/create_station.jsp
+END
+play_station.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/832/trunk/XMode/radiomode.web/src/main/webapp/WEB-INF/jsp/radio/play_station.jsp
+END
+add_artist.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/739/trunk/XMode/radiomode.web/src/main/webapp/WEB-INF/jsp/radio/add_artist.jsp
+END

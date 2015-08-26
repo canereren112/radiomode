@@ -1,0 +1,737 @@
+/* 
+    Document   : profile
+    Created on : 26.Ara.2009, 03:33:44
+    Author     : CANER
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+#profile_content {
+
+}
+
+#user_about_me_content{
+    margin: 10px 10px 30px;
+}
+
+#profile_big_content{
+
+}
+
+#musical_background_box{
+    height:400px;
+}
+
+#photo_container{
+    height: 123px;
+    margin-top: 10px;
+    width: 190px;
+}
+
+#photo_down_information{
+    float:left;
+    height:140px;
+    padding-left:30px;
+    width:160px;  
+}
+
+#photo_right_information{
+    float: left;
+    font-size: 10px;
+    height: 105px;
+    margin-left: 125px;
+    padding-top: 16px;
+    width: 75px;
+}
+
+#user_about_me_box{
+    min-height: 70px;
+    padding-bottom: 30px;
+}
+
+#about_member_information{
+    float:left;
+    height:140px;
+    padding-right:30px;
+    width:340px;
+}
+
+#profile_photo{
+    height: 105px;
+    left: 23px;
+    margin-top: 6px;
+    position: absolute;
+    width: 85px;
+}
+
+#member_level{
+    height:20px;
+    background: #6AAF30 url(../images/ui-soft-6AAF30/ui-bg_inset-soft_50_6AAF30_1x100.png) 50% 50% repeat-x;
+    width:190px;
+}
+
+#nick_name{
+    font-weight:bold;
+    font-size: 17px;
+    color:#6BAF31;
+}
+
+#profile_center_part{
+}
+
+#profile_right_part{
+}
+
+#user_store_box{
+    height:410px;
+}
+
+#user_station_box.general_see_more{
+    margin-top: 5px;
+}
+
+#user_song_box{
+    height: 510px;
+}
+
+.station_submenu_link{
+    border-left:1px solid #f1f1f1;
+    border-right:1px solid #f1f1f1;
+    float:left;
+    font-size:11px;
+    height:20px;
+    margin-top:-4px;
+    padding-left:0.6em;
+    padding-right:0.6em;
+    padding-top:3px;
+    text-shadow:0 1px 1px #FFFFFF;
+    width:90px;
+}
+
+a.station_submenu_link:hover{
+    border-left:1px solid #aaaaaa;
+    border-right:1px solid #aaaaaa;
+    border-top:1px solid #aaaaaa;
+    background-color: #ffffff;
+    background-color: #ffffff;
+    height:20px;
+    color:#037E38;
+}
+
+a.station_submenu_link:activated{
+    border-left:1px solid #aaaaaa;
+    border-right:1px solid #aaaaaa;
+    border-top:1px solid #aaaaaa;
+    background-color: #ffffff;
+    background-color: #ffffff;
+    height:21px;
+    color:#037E38;
+}
+
+#user_artist_box{
+    height: 600px;
+}
+
+#user_album_box{
+    height: 555px;
+}
+
+#user_friends_box{
+}
+
+#user_neighbours_box{
+}
+
+.user_songs_photo{
+    float: left;
+    height: 34px;
+    margin-top: -6px;
+    width: 34px
+}
+.user_artist_list_photo{
+    float: left;
+    height: 46px;
+    margin-top: -6px;
+    width: 46px;
+}
+.user_album_list_photo{
+    float: left;
+    height: 41px;
+    margin-top: -6px;
+    width: 41px;
+}
+
+.user_songs_singer_name{
+    color: #444444;
+}
+
+.user_songs_singer_name:hover{
+    color:#0094D6;
+    background: none;
+}
+.user_songs_song_name{
+    margin-top: 10px;
+}
+.user_songs_song_name:hover{
+    color:#0094D6;
+    background: none;
+}
+
+
+.profile_list_general{
+    border-bottom: 1px solid #ffffff;
+    border-top: 0px solid #E1E1E1;
+    font-size: 11px;
+    list-style-type: none;
+    margin: 30px 20px 0;
+}
+
+#user_songs_box_content li{
+}
+
+#user_songs_box_content a:visited{
+    text-decoration: none;
+    color : black;
+}
+
+
+#user_songs_box_content a{
+    text-decoration: none;
+
+}
+
+.user_songs_box_buttons{
+    left: 350px;
+    margin-top: 0px;
+    position: absolute;
+}
+
+.user_songs_box_listened_date_song{
+    float: right;
+    margin-right:10px;
+    margin-top:2px;
+}
+
+.user_songs_box_listened_date_artist{
+    float: right;
+    margin-right: 10px;
+    margin-top: 12px;
+}
+
+.user_songs_box_listened_date_album{
+    float: right;
+    margin-right:10px;
+    margin-top:6px;
+}
+
+.user_block_image{
+    width: 16px;
+    height: 16px;
+}
+
+.singer_and_song_name{
+    float:left;
+    margin-left:10px;
+    margin-top: 2px;
+    font-size: 11px;
+    color:#444444;
+}
+
+.user_artist_name{
+    float: left;
+    font-size: 11px;
+    margin-left: 10px;
+    margin-top: 12px;
+    width: 200px;
+}
+
+.user_album_artist_name{
+    font-size: 11px;
+    color:#444444;
+}
+
+.user_album_artist_name:hover{
+    color:#0094D6;
+    background: none;
+}
+.user_album_name{
+    color:#444444;
+}
+
+.user_album_name:hover{
+    color:#0094D6;
+    background: none;
+}
+.user_album_span{
+    float:left;
+    margin-left:10px;
+    margin-top: 6px;
+    width:300px;
+
+}
+
+#center_musical_background_link{
+    border-top: none;
+}
+
+.user_list_content{
+    height:20px;
+}
+
+.user_artist_photo{
+    height:15px;
+    width:15px;
+}
+
+.user_artist_singer_name{
+    font-weight: bold;
+    margin-left: 8px;
+}
+
+#user_artist_box_content li{
+}
+
+#user_artist_box_content a:visited{
+    text-decoration: none;
+    color : #333333;
+}
+
+#user_artist_box_content a{
+
+
+}
+
+.user_artist_box_buttons{
+    margin-left: 100px;
+    margin-top: 9px;
+    position: absolute;
+}
+
+.user_artist_box_listened_date{
+    float: right;
+    margin-right: 30px;
+    margin-top:2px;
+}
+
+.user_artist_heart_image{
+}
+
+#artist_box_see_more{
+    margin-top: 3px;
+}
+
+.user_album_photo{
+    height:15px;
+    width:15px;
+}
+
+.user_album_singer_name{
+    font-weight: bold;
+    margin-left: 8px;
+}
+
+.user_album_box_buttons{
+    margin-top: 6px;
+    position: absolute;
+}
+
+.user_album_box_listened_date{
+    float: right;
+    margin-right: 30px;
+    margin-top: 6px;
+}
+
+#album_box_see_more{
+    margin-top: 3px;
+}
+
+#top_listeners a:visited {
+    color:#444444;
+}
+
+#user_friends_box_content{
+    height:373px;
+}
+
+#user_neighbours_box_content{
+    height:373px;
+}
+
+#user_friends_see_more{
+    float:right;
+}
+
+#user_recent_activity ul{
+    list-style-type: none;
+    padding:15px 15px 0px 15px;
+    margin-top:5px;
+}
+
+#user_recent_activity li{
+    border-bottom:1px solid #DDDDDD;
+    margin-bottom:5px;
+    padding-bottom:5px;
+}
+
+#user_recent_activity_see_more{
+    float: right;
+}
+
+#singer_album_case{
+    margin-left: 20px;
+}
+
+#user_photo_box{
+    height:369px;
+    padding-top:5px;
+}
+
+#user_buttons{
+    margin-top: 20px;
+    padding-left: 26px;
+    width: 140px;
+}
+
+.user_singer_brief_statistics{
+    border-top:1px solid #AAAAAA;
+    font-weight:bold;
+    margin-left:5px;
+    margin-right:5px;
+    margin-top:15px;
+}
+
+.user_singer_brief_statistics_list{
+    list-style:none ;
+    margin-left:15px;
+    margin-top:5px;
+    color: #777777;
+    font-weight: normal;
+}
+
+#user_edit_link{
+    float:right;
+    margin-right:108px;
+}
+
+.photo_right_text{
+    color: #777777;
+}
+
+.photo_right_down{
+    margin-top: 18px;
+}
+
+.photo_listening_text{
+    font-weight: normal;
+    color: #777777;
+
+}
+
+/*eski mavi#d8eff8 last.fm hover mavisi:d0e4f0 yeni hover:cfecf7 eski border:e1e1e1*/
+.profile_songs_grid_1{
+    /*  Normalde boyle
+        border-bottom: 1px solid #E1E1E1;
+        border-top: 1px solid #E1E1E1;
+    */
+    /*Hoveerda boyle gorunecek
+    border-bottom: 1px solid #86D1ED;
+    border-top: 1px solid #86D1ED;
+    */
+    border-bottom: 1px solid #FFFFFF;
+    border-top: 1px solid #FFFFFF;
+}
+
+li.profile_songs_grid_1:hover{
+    background-color: #cfecf7;
+}
+
+.profile_songs_grid_0{
+    background-color: #FFFFFF;
+}
+
+li.profile_songs_grid_0:hover{
+    background-color: #cfecf7;
+}
+
+.profile_album_item{
+    height: 29px;
+}
+
+.profile_songs_item{
+    height: 22px;
+}
+
+.profile_artist_item{
+    height: 34px;
+}
+.profile_list_general li{
+    padding-bottom: 6px;
+    padding-top: 6px;
+}
+
+.sub_about_me{
+    min-height:500px;
+}
+
+.sub_about_me_text{
+    padding: 15px;
+} 
+
+.sub_about_me_edit_button{
+    float: right;
+    margin-right: 330px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.sub_about_me_edit_button:hover{
+    background: none;
+}
+
+.sub_about_me_button_image{
+    width:85px;
+}
+
+.sub_about_me_reply_button_link{
+    font-size:12px;
+    font-weight:bold;
+    left:30px;
+    margin-top:4px;
+    position:absolute;
+}
+
+#music_box_content{
+    width: 966px;
+    min-height: 1000px;
+    margin-top: 15px;
+}
+
+.music_box_information_content{
+    background-color:#FFFFFF;
+    border:1px solid #AAAAAA;
+    margin-top:-1px;
+    min-height:800px;
+    width:964px;
+    padding:20px;
+}
+
+#profile_friends_content{
+    min-height:850px;
+}
+
+.profile_friends_sub_content{
+    float:left;
+
+    width:324px;
+    position:relative;
+}
+
+.profile_friends_sub_content_1{
+    border-left: none;
+}
+
+.profile_friend_list{
+}
+
+.profile_friend_list_item{
+    float:left;
+    margin-bottom:5px;
+    margin-top:5px;
+    padding:6px 20px;
+    position:relative;
+    width:270px;
+}
+
+.profile_friend_list_item:hover{
+    background-color: #D8EFF8;
+}
+
+.profile_friend_photo_link{
+    float:left;
+    margin-left:20px;
+}
+.profile_profile_photo{
+    border:1px solid #CCCCCC;
+    height:50px;
+    margin-bottom:7px;
+    padding:1px;
+    width:50px;
+}
+
+.profile_profile_nickname{
+    float:left;
+    font-size:12px;
+    font-weight:bold;
+    margin-left:40px;
+    margin-top:-1px;
+    width:140px;
+}
+
+.profile_profile_location{
+    margin-left:-39px;
+    margin-top:25px;
+    position:absolute;
+}
+
+.profile_profile_age_gender{
+    margin-left:40px;
+}
+
+.profile_friend_whole_link{
+    display:block;
+    height:50px;
+    left:0;
+    min-height:65px;
+    position:absolute;
+    top:0;
+    width:310px;
+}
+
+.profile_friend_whole_link:hover{
+
+}
+
+.profile_friend_list_container{
+    position: relative;
+}
+
+#profile_neighbours_content{
+    min-height: 700px;
+}
+
+.profile_neighbours_list_item{
+    border-bottom: 1px solid #E1E1E1; 
+    margin-top: 15px;
+    padding-bottom: 5px;
+    padding-top: 15px;
+    position: relative;
+}
+
+.profile_neighbours_left_item{
+    height:148px;
+    position:relative;
+    width:300px;
+}
+
+.profile_neighbours_photo_link{
+    float:left;
+    margin-left:20px
+}
+
+.profile_neighbours_photo_link:hover{
+    background: none;
+}
+
+.profile_neigbours_photo{
+    height: 106px;
+    margin-left: 7px;
+    margin-top: 7px;
+    width: 86px;
+}
+
+.profile_neighbours_nickname{
+    font-size:17px;
+    font-weight:bold;
+    margin-left:40px;
+    margin-top:-1px;
+    width:140px;
+}
+
+.profile_neighbours_age_gender{
+    margin-left:40px;
+    color: #777777;
+}
+
+.profile_neighbours_location{
+    color: #777777;
+    margin-left: -39px;
+    margin-top: 35px;
+    padding-top: 5px;
+    position: absolute;
+}
+
+.profile_neigbours_right_item{
+    height: 148px;
+    position: absolute;
+    right: 0;
+    top: 10px;
+    width: 400px;
+}
+
+.profile_neighbours_common{
+    height:74px;
+}
+
+.profile_neighbours_header{
+    font-size:17px;
+    font-weight:bold;
+}
+
+.profile_neighbours_mutual_list{
+}
+
+.profile_neighbours_mutual_list_item{
+    float:left;
+    position:relative;
+}
+
+.neighbours_list_item_container_div{
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-top: 5px;
+    width: 150px;
+}
+
+div.neighbours_list_item_container_div:hover{
+    background-color: #d8eff8;
+}
+
+.neighbours_mutual_list_photo{
+    height: 46px;
+    width: 46px;
+}
+
+.neighbours_mutual_list__name{
+    color: #444444;
+    font-weight: bold;
+    margin-left: 15px;
+    margin-top: 15px;
+    position: absolute;
+}
+
+.profile_neighbours_list_item_1{
+    margin-top: 0px;
+}
+
+.profile_recent_activity_list{
+}
+
+#profile_activity_content{
+    min-height: 300px;
+}
+
+#profile_comments_content{
+    min-height: 300px;
+}
+
+.profile_photo_outline{
+    height: 125px;
+    left: 16px;
+    position: absolute;
+    width: 99px;
+}
+
+.profile_neighbours_photo_outline{
+    height: 125px;
+    position: absolute;
+    width: 99px;
+}

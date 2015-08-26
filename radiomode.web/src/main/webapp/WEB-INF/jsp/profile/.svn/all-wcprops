@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/!svn/ver/867/trunk/XMode/radiomode.web/src/main/webapp/WEB-INF/jsp/profile
+END
+profile_neighbours.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/!svn/ver/864/trunk/XMode/radiomode.web/src/main/webapp/WEB-INF/jsp/profile/profile_neighbours.jsp
+END
+profile_friends.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/864/trunk/XMode/radiomode.web/src/main/webapp/WEB-INF/jsp/profile/profile_friends.jsp
+END
+profile_music.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/867/trunk/XMode/radiomode.web/src/main/webapp/WEB-INF/jsp/profile/profile_music.jsp
+END
+profile_about_me.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/864/trunk/XMode/radiomode.web/src/main/webapp/WEB-INF/jsp/profile/profile_about_me.jsp
+END
+profile_general.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/854/trunk/XMode/radiomode.web/src/main/webapp/WEB-INF/jsp/profile/profile_general.jsp
+END
+profile_activity.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/864/trunk/XMode/radiomode.web/src/main/webapp/WEB-INF/jsp/profile/profile_activity.jsp
+END

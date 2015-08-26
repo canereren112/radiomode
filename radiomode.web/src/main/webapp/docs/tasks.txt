@@ -1,0 +1,46 @@
+development-bundle/themes/south-street/ui.all.css
+development-bundle/demos/demos.css
+css/jquery-ui-1.7.2.custom.css
+
+Bunlara baktım...
+
++ Menu renkleri yesil butonlar mavi olacak.
++ Contentin ici gri dısı beyaz ve contentin icindeki kısımlar da beyaz renkli olacak
+  ayrıca contente shadow eklemelisin..
++ Bir yazı fontu bul.
++ Menu item icin arka duvar koyudan acıga Jquery tabanından cek.
++ Linklerdeki rengin maviye donmesini kontrol et
++ Jquery sayfasından ust menu icin hard ve soft ozellikleri indir.+
++ Box baslıklarını JQuery Kutuphanesini, kullanarak tasarla.
++ CNN.com daki koyu kırmızı sol ust sol menuyu uyarla (gereksiz)
++ youtube video boyutu : boy :300px; genislik: 540px
++ Radio Mode Playerın perspektif ayarlarını yap.
++ Fireworks programını kur.
++ CSS opacity, shadow effect olaylarını arastır.
++ Div headerlar icin yeni bir tasarım yap.
++ Anasayfanın width yapısını ayarla.
++ Mode playerin dış borderini iceri taşı.
++ Text border olayını arıştır.
++ CSS3 text-shadow ozelligini Firefox destekliyor ama IE desteklemiyor. IE icin Jquery pluginini indir.
++ Up panel menusunun seceneklerini Photoshopda parlayan golgeler halinde olustur  -(Gerek kalmadı)
++ Artist sayfasının icerigin kucult 
+
+
+
+
+
+
+
+1) http://www.fatihhayrioglu.com/css-ile-konumlandirmapositioning/ linki ve yan linkleri incele!
+2) http://www.bildirgec.org/yazi/ilham-kaynagi-olabilecek-30-guzel daki mp3 siteleri incelenecek
+3) http://pitchfork.com/ daki border kullanılacak
+4) internet explorer round corner yapma linki:
+   http://www.filamentgroup.com/lab/achieving_rounded_corners_in_internet_explorer_for_jquery_ui_with_dd_roundi/
+5) User profile sayfasındaki icerikte artist ve album fotolarının yerine CD simgesi koymayı dene.
+6) +  Radiomode logosunu Tempus fontunu kullanarak yaz
+7) album coverini yap. website : http://www.komodomedia.com/blog/2009/03/sexy-music-album-overlays/
+8) +  Top_header cssındaki backgroundun gri alt kısmının gri oranının arttır.
+9) Search simgesi yap.
+10) Settings ve icindeki sayfaları yeniden uyarla
+
+http://www.elated.com/res/File/articles/development/javascript/jquery/smooth-rotatable-images-css3-jquery/

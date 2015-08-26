@@ -1,0 +1,245 @@
+/* 
+    Document   : home
+    Created on : 26.Ara.2009, 03:33:15
+    Author     : CANER
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+#home_content {
+    /*background-color:#E8E8E8;*/
+    background-color: #FFFFFF;
+    border: 1px solid #AAAAAA;    
+    margin-left: 0;
+    margin-top: 10px;
+    position: relative; 
+}
+
+#home_big_content{
+
+}
+
+.home_sub_menu_sides{
+    background: url("../images/home/home_sub_menu_tab_normal_1.png") repeat-x scroll 100% 0 transparent;
+    border-bottom: 3px solid #BBBBBB;
+    display: inline;
+    height:137px;
+    position: absolute;
+    top: 0;
+    width: 123px;
+}
+
+.home_sub_menu_side_1{
+    left: 0px;
+    border-right: 1px solid #AAA8A8;
+    width: 122px;
+}
+
+.home_sub_menu_side_2{
+    right: 0px;
+}
+
+.home_sub_menu_normal_tab{
+    background: url("../images/home/home_sub_menu_tab_normal_1.png") repeat-x scroll 100% 0 transparent;
+    border-bottom: 3px solid #BBBBBB;
+    border-left: 2px solid #E9E9E9;
+    border-right: 1px solid #AAA8A8;
+    display: inline;
+    height:137px;
+    position: absolute;
+    top: 0;
+    width: 197px;
+}
+
+.home_sub_menu_normal_tab:hover{
+    background: url("../images/home/home_sub_menu_tab_hover_1.png") repeat-x scroll 100% 0 transparent;
+    border-right: none;
+    width: 198px;
+    text-decoration: none;
+}
+
+.home_sub_menu_normal_tab_1:hover{
+    width: 199px;
+}
+
+.home_sub_menu_normal_tab_1{
+    border-left: 2px solid #E9E9E9;
+    left: 123px;
+    width: 197px;
+}
+.home_sub_menu_normal_tab_2{
+    left:323px;
+}
+.home_sub_menu_normal_tab_2:hover .home_sub_menu_normal_tab_3{
+    border-left: 1px solid #aaa8a8;
+}
+.home_sub_menu_normal_tab_3{
+    left:523px;
+}
+.home_sub_menu_normal_tab_4{
+    left:723px;
+}
+
+.home_sub_menu_normal_tab_4:hover{
+    background: url("../images/home/home_sub_menu_tab_active_1.png") repeat-x scroll 100% 0 transparent;
+    border-left: medium none;
+    border-right: 1px solid #AAA8A8;
+    left: 723px;
+    width: 199px;
+    border-bottom: none;
+}
+
+.general_snap_shot{
+    height:55px;
+    margin-left:64px;
+    margin-top:10px;
+}
+
+.mode_pages_snapshot{
+    margin-top: 12px;
+}
+
+.home_sub_menu_header{
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.home_sub_menu_header_page{
+    margin-top: 3px;
+}
+.home_sub_menu_text{
+    color: #555555;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    text-align: center;
+    width: 180px;
+}
+
+
+
+.home_sub_menu_normal_tab:hover .home_sub_menu_header{
+    margin-left: -1px;
+}
+
+.home_create_station_button{
+    background:url(../images/buttons/blue_buttons/blue_button_default.png);
+}
+
+.home_create_station_button:focus{
+    background:url(../images/buttons/blue_buttons/blue_button_active.png);
+}
+
+.home_create_station_button:hover{
+    background:url(../images/buttons/blue_buttons/blue_button_hover.png);
+}
+
+.home_sub_menu{
+    height: 135px;
+}
+
+.create_station_text{
+    color: #666666;
+    font-size: 27px;
+    font-weight: bold;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.create_station_down{
+    text-align: center;
+}
+
+.create_station_button_text{
+    position: absolute;
+    color: #ffffff;
+}
+.create_station_button_link{
+
+}
+
+.home_create_station_content{
+    margin-top: 100px;
+    min-height: 500px;
+}
+
+.home_create_station_left_part{
+    color: #666666;
+    float: left;
+    min-height: 500px;
+    padding-left: 90px;
+    width: 300px;
+}
+
+.home_cs_header_1{
+    color: #444444;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.home_cs_paragraph_1{
+    padding-left: 0px;
+}
+
+.home_cs_header_2{
+    margin-top: 20px;
+}
+
+.home_cs_paragraph_2{
+    margin-bottom: 15px;
+}
+
+.home_cs_sub_header{
+    color: #444444;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 2px;
+    margin-left: 17px;
+    margin-top: 5px;
+}
+
+.home_cs_sub_paragraph{
+    margin-left: 17px;
+}
+
+.home_create_station_right_part{
+    min-height: 500px;
+    float: left;
+    width: 615px;
+}
+
+.home_big_screen_shot{
+    -moz-box-shadow: 0 0 8px #888888;
+    -webkit-box-shadow: 0 0 8px #888888;
+    margin-left: 90px;
+    width: 425px;
+}
+
+.home_small_screen_shot{
+    -moz-box-shadow: 0 0 4px #888888;
+    -webkit-box-shadow: 0 0 4px #888888;
+    width: 100px;
+    height: 80px;
+    margin-right: 20px;
+}
+
+.small_screen_shots{
+    height: 100px;
+    margin-top: 30px;
+}
+
+.home_small_screen_shot_1{
+    margin-left: 130px;
+}

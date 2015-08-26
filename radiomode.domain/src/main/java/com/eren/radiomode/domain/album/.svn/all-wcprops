@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/796/trunk/XMode/radiomode.domain/src/main/java/com/eren/radiomode/domain/album
+END
+Label.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/!svn/ver/687/trunk/XMode/radiomode.domain/src/main/java/com/eren/radiomode/domain/album/Label.java
+END
+AlbumStats.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/796/trunk/XMode/radiomode.domain/src/main/java/com/eren/radiomode/domain/album/AlbumStats.java
+END
+AlbumTags.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/!svn/ver/796/trunk/XMode/radiomode.domain/src/main/java/com/eren/radiomode/domain/album/AlbumTags.java
+END
+Album.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/!svn/ver/796/trunk/XMode/radiomode.domain/src/main/java/com/eren/radiomode/domain/album/Album.java
+END
+AlbumAmazonAsin.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/!svn/ver/796/trunk/XMode/radiomode.domain/src/main/java/com/eren/radiomode/domain/album/AlbumAmazonAsin.java
+END
+AlbumSimiliar.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/!svn/ver/796/trunk/XMode/radiomode.domain/src/main/java/com/eren/radiomode/domain/album/AlbumSimiliar.java
+END

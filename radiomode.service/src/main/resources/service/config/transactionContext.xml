@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+       http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+       http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.0.xsd">
+
+    <!-- EXCEPTION&LOGGING MANAGEMENT -->
+        <!-- Bean definitions for your application code -->
+
+    <!-- Define the ThrowsAdvice bean -->
+    
+    <bean id="logThrowsAdvice" class="com.eren.radiomode.service.util.LogThrowsAdvice" />
+    
+    <!-- Wire the advice to the application code -->
+    
+    <bean class="org.springframework.aop.framework.autoproxy.BeanNameAutoProxyCreator">
+        <property name="beanNames">
+            <value>*</value>
+        </property>
+        <property name="interceptorNames">
+            <list>
+                <value>logThrowsAdvice</value>
+            </list>
+        </property>
+    </bean>
+    
+    <!-- EXCEPTION&LOGGING MANAGEMENT -->
+
+    <!-- TRANSACTION MANAGEMENT -->
+
+    <!-- transaction yapisini manuel yapmadan kullanabilmeyi saglar  -->
+    
+    <bean id="transactionManager" class="org.springframework.orm.hibernate3.HibernateTransactionManager" autowire="byName">
+        <property name="sessionFactory">
+            <ref bean="sessionFactory" />
+        </property>
+    </bean>
+    
+    <!-- transaction methods -->
+    <!--//TODO performans sorunu cozulunce uncomment yapilacak-->
+    <!--
+    <aop:config>
+        <aop:pointcut id="allServiceMethods"
+                      expression="execution(* com.eren.radiomode.service.*Service.* (..))" />
+        <aop:advisor advice-ref="txAdvice"  pointcut-ref="allServiceMethods" />
+    </aop:config>
+    -->
+    <!--
+    <aop:config>
+        <aop:pointcut id="allControllerMethods"
+                      expression="execution(* com.eren.radiomode.web.controller.*.*Controller.* (..))" />
+        <aop:advisor advice-ref="txAdvice"  pointcut-ref="allControllerMethods" />
+    </aop:config>
+    -->
+
+    <!-- transaction methods -->
+
+    <!-- transaction advices -->
+    <tx:advice id="txAdvice" transaction-manager="transactionManager">
+        <tx:attributes>
+            <tx:method name="load*"  read-only="true" propagation="REQUIRED" />
+            <tx:method name="get*"  read-only="true" propagation="REQUIRED" />            
+            <tx:method name="*"  rollback-for="java.lang.Exception" propagation="REQUIRED" />
+        </tx:attributes>
+    </tx:advice>
+
+    <!--
+    <tx:advice id="txAdviceReadCommitted" transaction-manager="transactionManager" >
+        <tx:attributes>
+            <tx:method name="*" isolation="READ_COMMITTED"
+                       propagation="REQUIRED" />
+        </tx:attributes>
+    </tx:advice>
+
+    <tx:advice id="txAdviceReadUnCommitted" transaction-manager="transactionManager" >
+        <tx:attributes>
+            <tx:method name="*" isolation="READ_UNCOMMITTED"
+                       propagation="REQUIRED" />
+        </tx:attributes>
+    </tx:advice>
+    <tx:advice id="txAdviceDefault" transaction-manager="transactionManager" >
+        <tx:attributes>
+            <tx:method name="*" isolation="DEFAULT"
+                       propagation="REQUIRED" />
+        </tx:attributes>
+    </tx:advice>
+
+    <tx:advice id="txAdviceReadSerializable" transaction-manager="transactionManager" >
+        <tx:attributes>
+            <tx:method name="*" isolation="SERIALIZABLE"
+                       propagation="REQUIRED" />
+        </tx:attributes>
+    </tx:advice>
+
+    <tx:advice id="txAdviceRepeteableRead" transaction-manager="transactionManager" >
+        <tx:attributes>
+            <tx:method name="*" isolation="REPEATABLE_READ"
+                       propagation="REQUIRED" />
+        </tx:attributes>
+    </tx:advice>
+
+    <tx:advice id="noTxAdvice">
+        <tx:attributes>
+            <tx:method name="*" propagation="NEVER"/>
+        </tx:attributes>
+    </tx:advice>
+    -->
+
+    <!-- transaction advices -->
+
+    <!-- TRANSACTION MANAGEMENT -->
+</beans>

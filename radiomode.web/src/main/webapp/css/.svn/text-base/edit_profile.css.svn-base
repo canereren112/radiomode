@@ -1,0 +1,112 @@
+/* 
+    Document   : edit_profile
+    Created on : 05.Eyl.2010, 03:32:04
+    Author     : EREN
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+#edit_profile_content{
+    
+}
+
+#edit_profile_big_content{
+  
+}
+
+
+
+
+.about_me_text_area{
+
+    float: left;
+}
+
+#save_button{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.sub_pages_settings{
+    margin-top: 15px;
+}
+
+.setting_store_box{
+    margin-top: 15px;
+}
+
+.setting_general{
+
+}
+.setting_general td{
+    padding-top: 22px;
+}
+.setting_general_td_left{
+    color: #555555;
+    font-size: 12px;
+    padding-right: 10px;
+    text-align: right;
+    width: 200px;
+}
+
+.setting_general_td_right{
+
+}
+
+.setting_general_tr{
+
+}
+
+.about_me_text{
+    margin-left: -60px;
+    margin-top: -40px;
+    position: absolute;
+}
+
+.password_table{
+
+}
+
+.password_table td{
+    padding-top: 22px;
+}
+
+.password_table_td_left{
+    color: #555555;
+    font-size: 12px;
+    padding-right: 10px;
+    text-align: right;
+    width: 290px;
+}
+
+.password_table tr{
+
+}
+
+#change_password{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.email_table{
+    color: #555555;
+    margin-left: 250px;
+    margin-top: 20px;
+}
+
+.email_table tr{
+
+}
+
+.email_table td{
+    padding-top: 10px;
+}

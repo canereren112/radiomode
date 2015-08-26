@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/!svn/ver/881/trunk/XMode/radiomode.web/src/main/webapp/WEB-INF/jsp/album/list
+END
+albumListenerList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/886/trunk/XMode/radiomode.web/src/main/webapp/WEB-INF/jsp/album/list/albumListenerList.jsp
+END
+albumSimilarAlbumList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/886/trunk/XMode/radiomode.web/src/main/webapp/WEB-INF/jsp/album/list/albumSimilarAlbumList.jsp
+END
+albumSongList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/886/trunk/XMode/radiomode.web/src/main/webapp/WEB-INF/jsp/album/list/albumSongList.jsp
+END
+albumOtherAlbumsList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/!svn/ver/886/trunk/XMode/radiomode.web/src/main/webapp/WEB-INF/jsp/album/list/albumOtherAlbumsList.jsp
+END

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/!svn/ver/808/trunk/XMode/radiomode.service/src/test/resources/service/config
+END
+transactionContext.xml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/735/trunk/XMode/radiomode.service/src/test/resources/service/config/transactionContext.xml
+END
+beanContext.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/808/trunk/XMode/radiomode.service/src/test/resources/service/config/beanContext.xml
+END

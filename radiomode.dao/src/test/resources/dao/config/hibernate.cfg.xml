@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+    <!-- Baglanti degiskenleri -->
+
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc:mysql://192.168.2.5:3306/test_radiomode</property>
+        <property name="hibernate.connection.username">radiomode</property>
+        <property name="hibernate.connection.password">radiom47</property>
+
+    <!-- Baglanti degiskenleri -->
+
+    <!-- Ekstra ayarlar -->
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+        <property name="cache.provider_class">org.hibernate.cache.NoCacheProvider</property>
+        <property name="hibernate.transaction.factory_class">org.springframework.orm.hibernate3.SpringTransactionFactory</property>
+        <!--<property name="hibernate.transaction.factory_class">org.hibernate.transaction.JDBCTransactionFactory</property>-->
+        <property name="hibernate.current_session_context_class">thread</property>
+        <property name="hibernate.jdbc.use_get_generated_keys">true</property>
+        <property name="hibernate.show_sql">false</property>
+        <!--
+        <property name="hibernate.bytecode.use_reflection_optimizer">false</property>
+        -->
+    <!-- Ekstra ayarlar -->
+
+    <!-- Pojo Siniflari -->
+        <mapping class="com.eren.radiomode.domain.album.Album" />
+        <mapping class="com.eren.radiomode.domain.album.AlbumFans" />
+        <mapping class="com.eren.radiomode.domain.album.AlbumPictures" />
+        <mapping class="com.eren.radiomode.domain.album.AlbumSimiliar" />
+        <mapping class="com.eren.radiomode.domain.album.AlbumStats" />
+        <mapping class="com.eren.radiomode.domain.album.AlbumTags" />
+        <mapping class="com.eren.radiomode.domain.album.AlbumAmazonAsin" />
+        <mapping class="com.eren.radiomode.domain.album.Label" />
+        <mapping class="com.eren.radiomode.domain.artist.Artist" />
+        <mapping class="com.eren.radiomode.domain.artist.ArtistFans" />
+        <mapping class="com.eren.radiomode.domain.artist.ArtistLinks" />
+        <mapping class="com.eren.radiomode.domain.artist.ArtistMembers" />
+        <mapping class="com.eren.radiomode.domain.artist.ArtistPictures" />
+        <mapping class="com.eren.radiomode.domain.artist.ArtistSimiliar" />
+        <mapping class="com.eren.radiomode.domain.artist.ArtistSimiliarStats" />
+        <mapping class="com.eren.radiomode.domain.artist.ArtistStats" />
+        <mapping class="com.eren.radiomode.domain.artist.ArtistTags" />
+        <mapping class="com.eren.radiomode.domain.BlockedUsers" />
+        <mapping class="com.eren.radiomode.domain.City" />
+        <mapping class="com.eren.radiomode.domain.ConcertRequest" />
+        <mapping class="com.eren.radiomode.domain.Comments" />
+        <mapping class="com.eren.radiomode.domain.Content" />
+        <mapping class="com.eren.radiomode.domain.Country" />
+        <mapping class="com.eren.radiomode.domain.CountryLanguage" />
+        <mapping class="com.eren.radiomode.domain.event.Event" />
+        <mapping class="com.eren.radiomode.domain.event.EventArtists" />
+        <mapping class="com.eren.radiomode.domain.event.EventFans" />
+        <mapping class="com.eren.radiomode.domain.event.EventPictures" />
+        <mapping class="com.eren.radiomode.domain.event.EventSimiliar" />
+        <mapping class="com.eren.radiomode.domain.event.EventStats" />
+        <mapping class="com.eren.radiomode.domain.Forum" />
+        <mapping class="com.eren.radiomode.domain.FriendList" />
+        <mapping class="com.eren.radiomode.domain.genre.Genre" />
+        <mapping class="com.eren.radiomode.domain.genre.GenreArtists" />
+        <mapping class="com.eren.radiomode.domain.genre.GenreSimiliar" />
+        <mapping class="com.eren.radiomode.domain.group.GroupArtists" />
+        <mapping class="com.eren.radiomode.domain.group.GroupFans" />
+        <mapping class="com.eren.radiomode.domain.group.GroupSimiliar" />
+        <mapping class="com.eren.radiomode.domain.group.GroupTags" />
+        <mapping class="com.eren.radiomode.domain.group.Group" />
+        <mapping class="com.eren.radiomode.domain.Language" />
+        <mapping class="com.eren.radiomode.domain.ListenHistory" />
+        <mapping class="com.eren.radiomode.domain.Message" />
+        <mapping class="com.eren.radiomode.domain.news.News" />
+        <mapping class="com.eren.radiomode.domain.news.NewsTags" />
+        <mapping class="com.eren.radiomode.domain.radio.Radio" />
+        <mapping class="com.eren.radiomode.domain.radio.RadioArtists" />
+        <mapping class="com.eren.radiomode.domain.radio.RadioArtistsAll" />
+        <mapping class="com.eren.radiomode.domain.radio.RadioFans" />
+        <mapping class="com.eren.radiomode.domain.radio.RadioSimiliar" />
+        <mapping class="com.eren.radiomode.domain.radio.RadioStats" />
+        <mapping class="com.eren.radiomode.domain.radio.RadioTags" />
+        <mapping class="com.eren.radiomode.domain.radio.RadioUsers" />
+        <mapping class="com.eren.radiomode.domain.song.Song" />
+        <mapping class="com.eren.radiomode.domain.song.SongFans" />
+        <mapping class="com.eren.radiomode.domain.song.SongSimiliar" />
+        <mapping class="com.eren.radiomode.domain.song.SongStats" />
+        <mapping class="com.eren.radiomode.domain.song.SongTags" />
+        <mapping class="com.eren.radiomode.domain.song.Lyrics" />
+        <mapping class="com.eren.radiomode.domain.song.Composition" />
+        <mapping class="com.eren.radiomode.domain.user.User" />
+        <mapping class="com.eren.radiomode.domain.user.UserActivation" />
+        <mapping class="com.eren.radiomode.domain.user.UserActivity" />
+        <mapping class="com.eren.radiomode.domain.user.UserContributions" />
+        <mapping class="com.eren.radiomode.domain.user.UserNotifications" />
+        <mapping class="com.eren.radiomode.domain.user.UserPictures" />
+        <mapping class="com.eren.radiomode.domain.user.UserPrivacy" />
+        <mapping class="com.eren.radiomode.domain.user.UserSimiliar" />
+        <mapping class="com.eren.radiomode.domain.user.UserStats" />
+        <mapping class="com.eren.radiomode.domain.user.UserTags" />
+        <mapping class="com.eren.radiomode.domain.video.Video" />
+        <mapping class="com.eren.radiomode.domain.video.VideoFans" />
+        <mapping class="com.eren.radiomode.domain.video.VideoStats" />
+        <mapping class="com.eren.radiomode.domain.video.VideoTags" />
+        <mapping class="com.eren.radiomode.domain.WebPages" />
+        <mapping class="com.eren.radiomode.domain.Tag" />
+    <!-- Pojo Siniflari -->
+    </session-factory>
+</hibernate-configuration>

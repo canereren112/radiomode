@@ -1,0 +1,537 @@
+/*
+    Document   : radio
+    Created on : 26.Ara.2009, 03:33:50
+    Author     : CANER
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/*
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root {
+    display: block;
+}
+
+#radio_content {
+    /*background-color:#E8E8E8;*/
+    background-color:#F1F1F1;
+    border:1px solid #AAAAAA;
+    float:left;
+    height:1250px;
+    margin-left:0;
+    padding-top:20px;
+
+}
+
+#radio_big_content{
+
+}
+#create_station_content{
+    background-color:#F1F1F1;
+    height:700px;
+    margin:10px;
+    padding:5px;
+    width:800px;
+
+}
+
+#create_station_header{
+    margin-bottom:20px;
+
+}
+
+#left_division{
+
+    width:284px;
+    height:500px;
+    float:left;
+    border:1px solid #AAAAAA;
+    margin-right:5px;
+    background-color:#FFFFFF;
+}
+
+#middle_division{
+    background-color:#FFFFFF;
+    list-style-type:none;
+    width:290px;
+    height:500px;
+    float:left;
+    margin-right:5px;
+    border:1px solid #AAAAAA;
+}
+#right_division{
+    background-color:#FFFFFF;
+    border:1px solid #AAAAAA;
+    float:left;
+    height:490px;
+    padding-left:20px;
+    padding-right:10px;
+    padding-top:10px;
+    width:250px;
+}
+#add_artist_station{
+    width:auto;
+    height:20%;
+    padding:10px;
+}
+
+#create_station_button{
+
+}
+
+#help_content{
+    padding : 10px;
+    font-size: 12px;
+}
+
+#added_stations{
+    padding-left:20px;
+    height:25%;
+    padding-top:20px;
+    padding-right:20px;
+    border-bottom:1px solid black;
+}
+
+#recommended_stations{
+    padding-left:20px;
+    padding-top:10px;
+    padding-right:20px;
+}
+
+#rate_songs_list{
+    font-size:11px;
+    padding-right:20px;
+}
+
+#rate_songs_list img{
+    float:right;
+}
+
+#rate_songs_list li{
+    height: 20px;
+}
+
+#right_division_header{
+    font-size:17px;
+    height:23px;
+    padding-top:3px;
+}
+
+#recommended_stations_header{
+    font-size:17px;
+    height:23px;
+    padding-top:3px;
+    margin-bottom:20px;
+}
+
+.like_line{
+    height:10px;
+    width:50px;
+    background-color:green;
+    float:right;
+    margin-top:10px;
+
+}
+
+.dislike_line{
+    height:10px;
+    width:50px;
+    background-color:red;
+    float:right;
+    margin-top:10px;
+}
+
+.artist_element_div{
+    height:30px;
+    margin-top:5px;
+}
+
+.small_heart{
+    width:8px;
+    height:9px;
+}
+
+
+.medium_heart{
+    width:11px;
+    height:12px;
+    margin-left:3px;
+}
+
+.large_heart{
+    width:14px;
+    height:15px;
+    margin-left:3px;
+}
+
+#default_stations_content{
+    height:700px;
+}
+
+#default_stations_header{
+    margin-bottom:5px;
+}
+
+#video_container{
+    background-color:#E6E6E6;
+    background-image:url("../images/mode-player/radio_mode_player_1.png");
+    border:1px solid #AAAAAA;
+    height:463px;
+    padding-left:19px;
+    padding-top:0;
+    width:571px;
+}
+
+.radio_right_content{
+    margin-left:20px;
+    width:290px;
+    float:left;
+}
+
+.radio_right_box_features{
+    background-color:#FFFFFF;
+    border:1px solid #AAAAAA;
+    width:290px;
+    margin-top: 10px;
+    position:relative;
+}
+
+#video_header{
+    font-size:large;
+    height:20px;
+    margin-bottom:5px;
+    padding-left:0;
+}
+
+
+#video_box{
+    /* width:540px;
+     height:299px;*/
+    width:640px;
+    height: 360px;
+
+    background-color:white;
+
+}
+
+#video_button{
+    margin-top:30px;
+}
+
+#video_button img{
+    border: none;
+}
+
+#video_toolbar{
+    height:50px;
+    width : 400px;
+}
+
+#video_toolbar a{
+    color:#71C1FE;
+    font-weight:bolder;
+    font-size:large;
+}
+
+#video_play_button{
+
+}
+
+#my_stations{
+    min-height: 200px;
+    margin-top: 0px;
+}
+
+#play_default_stations{
+    height:130px;
+}
+
+#play_recommended_stations{
+    height:140px;
+}
+
+#button_list,#options_list{
+    display:inline;
+    list-style-type:none;
+
+    margin:0px 0px;
+    padding:0;
+    border-color:black;
+    border-width:medium;
+}
+
+#video_button li,#song_options li{
+    display:inline;
+    list-style-type:none;
+}
+
+#sound_like_list{
+    float:right;
+    margin-right:20px;
+}
+
+.border_white{
+    border:1px solid white;
+}
+
+#video_box_border{
+    height:551px;
+    width:620px;
+    float:left;
+}
+
+ul#icons {
+    margin:0;
+    padding:0;
+}
+
+ul#icons li {
+    cursor:pointer;
+    float:left;
+    list-style-image:none;
+    list-style-position:outside;
+    list-style-type:none;
+    margin:2px;
+    padding:10px;
+    position:relative;
+    border-color:gray;
+    border-width:medium;
+}
+
+ul#toolbar_list li{
+    cursor:pointer;
+    float:left;
+    list-style-image:none;
+    list-style-position:outside;
+    list-style-type:none;
+    margin:5px 3px;
+    padding:5px 2px;
+    position:relative;
+    background-color:#D3D3D3;
+    border-color:gray;
+    border-width:medium;
+}
+
+ul#toolbar_list{
+    margin:0px;
+    padding: 0px;
+    border-color:black;
+    border-width:medium;
+}
+
+#song_options {
+    display:inline-block;
+}
+
+.radio_left_content{
+    width:590px;
+    height:auto;
+    float:left;
+
+}
+
+#radio_actions{
+    float:left;
+    margin-bottom:20px;
+    margin-left:40px;
+    width:200px;
+}
+
+.hr_line_color{
+    color:#888888;
+}
+
+.mode_player_large_buttons{
+    height: 34px;
+}
+
+.mode_player_like_heart_buttons{
+    height: 25px;
+    float:right;
+}
+
+#artist_album_song_container{
+    background-color:#FFFFFF;
+    border:1px solid #AAAAAA;
+    height:405px;
+    margin-top:20px;
+    width:590px;
+}
+
+#radio_photo_slide{
+    height : 90px;
+    width: 590px;
+}
+
+.radio_triple_content_features{
+    width: 570px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top : 5px;
+    height: 100px;
+}
+
+.play_radio_box_menu{
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top:3px;
+}
+
+.radio_box_menu_link_1{
+    border-left: none;
+}
+
+a.radio_box_menu_link_1:hover{
+    border-left: none;
+}
+
+.block_button_image{
+    margin-right: 20px;
+}
+
+.radio_fm_list{
+    margin-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 15px;
+    padding-top: 20px;
+}
+
+.radio_fm_list li{
+    height:28px;
+}
+
+.radio_list_grid_1{
+    background-color: #d8eff8;
+}
+
+.radio_list_grid_2{
+
+}
+
+.radio_list_link{
+    color:#444444;
+    font-size:13px;
+    margin-left:15px;
+    margin-top:3px;
+    position:absolute;
+}
+
+.radio_see_more_right_box{
+    right:15px;
+}
+
+#radio_store_box{
+    height:338px;
+}
+
+.radio_play_create_station{
+    background-color: #EAEAEA;
+    border-right: 1px solid #969696;
+    border-top: 1px solid #969696;
+    height: 320px;
+    padding: 10px;
+    position: absolute;
+    top: 142px;
+    width: 529px;
+}
+
+.create_station_radio_name{
+    font-size: 12px;
+    font-weight: bold;
+    color:#0094D6;
+}
+
+.create_station_radio_name_field{
+    font-size: 11px;
+    color:#888888;
+    font-style: italic;
+}
+
+.create_station_left_content{
+    float: left;
+    height: 301px;
+    padding: 5px;
+    width: 255px;
+}
+
+.create_station_right_content{
+    float: left;
+    height: 301px;
+    padding: 5px;
+    width: 254px;
+}
+
+.create_station_will_add_singer{
+
+}
+
+.create_station_add_singer_button{
+    margin-top: 8px;
+}
+
+.create_station_add_singer_button{
+    font-size: 12px;
+    font-weight: bold;
+    color:#0094D6;
+}
+
+.other_singers_grid_1{
+    background-color: #d8eff8;
+}
+
+.artist_added_photo{
+    border: 1px solid #CCCCCC;
+    height: 25px;
+    width: 25px;
+    padding: 1px;
+}
+
+.artist_added_name{
+    margin-left: 10px;
+    margin-top: 5px;
+    position: absolute;
+}
+
+.singers_you_may_like{
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 220px;
+}
+
+.create_station_other_singers_drop{
+    width: 200px;
+    font-size: 12px;
+}
+
+.create_station_other_singers{
+    margin-top: 10px;
+}
+
+.create_station_added_singers_list{
+    margin-left: 20px;
+}
+
+.create_station_added_singers_list_item{
+    background-color: #f4f4f4;
+    border:1px solid #cccccc;
+    border-top: 1px solid #ffffff;
+    margin-top: 3px;
+    padding-left: 5px;
+    padding-top: 3px;
+}
+
+.create_station_added_singers_list_item_1{
+    border-top: 1px solid #cccccc;
+}
+
+.singer_may_like_span{
+    color:#0094D6;
+    font-weight: bold;
+}
+
+.player_button:hover{
+    background: none;
+}

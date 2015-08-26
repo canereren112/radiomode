@@ -1,0 +1,11 @@
+# Kullanici tanimli exception tipleri
+
+error.general=An error occured while loading page, please try again later.
+error.save=An error occured and the process is failed, please try again later.
+error.settings.update=An Error occured during the update process,\n\please try again later.
+message.settings.update=Your settings updated successfully.
+message.addFriend=You sent a friendship request to ?, you ll be friends if ? accepts.
+warning.artistNameNotFound=? not found, please try another artist.
+warning.artistNameAlreadySelected=You already added ?, please try another artist.
+error.user.not.found=Your user data not found.
+warning.text.empty=Please write something first.

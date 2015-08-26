@@ -1,0 +1,34 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package com.eren.radiomode.service;
+
+import com.eren.radiomode.domain.Message;
+import com.eren.radiomode.domain.user.User;
+import java.util.List;
+
+/**
+ *
+ * @author work
+ */
+public interface MessageService {
+
+    List<Message> getInboxMessages(User user, int first, int max);
+
+    List<Message> getSentMessages(User user, int first, int max);
+
+    void sendMessage(Message message);
+
+    void replyMessage(Message message, Integer replyid);
+
+    Message readMessage(User user, Integer messageid);
+
+    Message getReplyMessage(int messageid);
+
+    void saveRepliedMessage(Message newRepliedMessage);
+
+    void removeMessage(Integer messageid);
+
+    boolean removeMessages(String[] messages);
+}

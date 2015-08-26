@@ -1,0 +1,20 @@
+/* 
+    Document   : ie-edit_profile
+    Created on : 03.Nis.2011, 23:49:27
+    Author     : EREN
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+.about_me_text{
+    margin-left: 138px;
+}

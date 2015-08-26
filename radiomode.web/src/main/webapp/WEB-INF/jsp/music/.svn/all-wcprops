@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/!svn/ver/864/trunk/XMode/radiomode.web/src/main/webapp/WEB-INF/jsp/music
+END
+music_artist.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/864/trunk/XMode/radiomode.web/src/main/webapp/WEB-INF/jsp/music/music_artist.jsp
+END
+music_song.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/847/trunk/XMode/radiomode.web/src/main/webapp/WEB-INF/jsp/music/music_song.jsp
+END
+music_album.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/864/trunk/XMode/radiomode.web/src/main/webapp/WEB-INF/jsp/music/music_album.jsp
+END

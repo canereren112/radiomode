@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/!svn/ver/864/trunk/XMode/radiomode.web/src/main/webapp/WEB-INF/jsp/notification
+END
+notification_comments.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repos/!svn/ver/864/trunk/XMode/radiomode.web/src/main/webapp/WEB-INF/jsp/notification/notification_comments.jsp
+END
+notification_shares.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/864/trunk/XMode/radiomode.web/src/main/webapp/WEB-INF/jsp/notification/notification_shares.jsp
+END
+notification_all.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/!svn/ver/864/trunk/XMode/radiomode.web/src/main/webapp/WEB-INF/jsp/notification/notification_all.jsp
+END
+notification_messages.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repos/!svn/ver/864/trunk/XMode/radiomode.web/src/main/webapp/WEB-INF/jsp/notification/notification_messages.jsp
+END
+notification_friend_requests.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repos/!svn/ver/864/trunk/XMode/radiomode.web/src/main/webapp/WEB-INF/jsp/notification/notification_friend_requests.jsp
+END

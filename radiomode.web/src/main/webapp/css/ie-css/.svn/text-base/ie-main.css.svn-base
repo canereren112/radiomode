@@ -1,0 +1,19 @@
+/* 
+    Document   : ie-main
+    Created on : 12.Haz.2010, 01:03:20
+    Author     : CANER
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+.main_artist_list_photo_overlay{
+    margin-left: -103px;
+}

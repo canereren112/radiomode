@@ -1,0 +1,296 @@
+<%@ include file="/WEB-INF/jsp/fragments/includes.jsp" %>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <script type="text/javascript">
+        jQuery(document).ready(function() {
+            entityid = $('#entityid').val();
+            url = 'comment/recent/type/album/entity/' + entityid + '/page/1';
+            $('.recent_comments_content').load(url, function() {
+                //$('#deleteCommentForm').attr("action", url + $('#deleteCommentForm').attr("action").toString());
+                $('#commentsURL').val(url);
+            });
+        });
+    </script>
+    <body>
+    <input type="hidden" id="entityid" value="${album.albumid}" />
+    <input type="hidden" id="albumName" value="${album.albumName}" />
+    <div id="album_left_part" class="left_content_features">
+        <div class="ie_shadow_box">
+            <div id="album_singer_brief" class="left_box_features ui-corner-all box_shadow">
+                <span class="album_name_header">
+                <a href="#" id="singer_album_name" class="album_brief_header singer_brief_header">
+                    ${album.albumName}
+                </a> -
+                <a href="artist/${album.artistid.name}" id="singer_album_name" class="album_brief_header singer_brief_header">
+                    ${album.artistid.name}
+                </a>
+                </span>
+
+                <div id="singer_album_case" class="album_jewel_case header_shadow">
+                    <img id="album_singer_brief_down" class="album_down_features " src="static/images/album/cd_case/jewel_case_back_big.png"/>
+                    <img id="album_singer_picture" class="album_picture " src="${album.albumAmazonAsin.coverarturl}"/>
+                    <img id="album_singer_brief_front" class="album_front_features " src="static/images/album/cd_case/jewel_case_front_big.png"/></br>
+                </div>
+
+                <div class="album_singer_brief_buttons">
+                    <!--
+                    <p><a id="add_albumbox_link" href="album/${album.albumName}#" class="brief_buttons blue_default_buttons ui-corner-all">
+                            <img class="blue_button_icon" alt="" src="static/images/icons/blue_buttons/love_button_new.png"/>
+                            Add to my Library </a></p>
+                    -->
+                    <a  href="#" class="brief_buttons blue_default_buttons ui-corner-all">
+                        <img class="blue_button_icon" alt="" src="static/images/icons/blue_buttons/buy_icon_new.png"/>Buy Album </a>
+                    <div id="share_stackmenu">
+                        <a id="share_artist_link" href="#" class="brief_buttons blue_default_buttons ui-corner-all">
+                            <img class="blue_button_icon" alt="" src="static/images/icons/blue_buttons/connected_icon_new.png"/>
+                            Share Album </a>
+                        <ul class="ui-stackmenu">
+                            <li class="ui-stackmenu-item" style="opacity: 0; right: 0px; -moz-transform: translate(0.242029px, 0pt) rotate(0deg); -moz-transform-origin: 1032px 50%; top: -22px; display: none;"><a href="#"><span class="title">Share</span><img alt="Share" src="static/images/icons/jstackmenu/heart-32x32.png"></a></li>
+                            <li class="ui-stackmenu-item" style="opacity: 0; right: 0px; -moz-transform: translate(0.242029px, 0pt) rotate(0deg); -moz-transform-origin: 1032px 50%; top: -22px; display: none;"><a href="http://www.facebook.com/"><span class="title">Facebook</span><img alt="Facebook" src="static/images/icons/jstackmenu/facebook-32x32.png"></a></li>
+                            <li class="ui-stackmenu-item" style="opacity: 0; right: 0px; -moz-transform: translate(0.242029px, 0pt) rotate(0deg); -moz-transform-origin: 1032px 50%; top: -22px; display: none;"><a href="http://twitter.com/"><span class="title">Twitter</span><img alt="Twitter" src="static/images/icons/jstackmenu/twitter-32x32.png"></a></li>
+                            <li class="ui-stackmenu-item" style="opacity: 0; right: 0px; -moz-transform: translate(0.242029px, 0pt) rotate(0deg); -moz-transform-origin: 1032px 50%; top: -22px; display: none;"><a href="http://digg.com/"><span class="title">Digg</span><img alt="Digg" src="static/images/icons/jstackmenu/digg-32x32.png"></a></li>
+                            <li class="ui-stackmenu-item" style="opacity: 0; right: 0px; -moz-transform: translate(0.242029px, 0pt) rotate(0deg); -moz-transform-origin: 1032px 50%; top: -22px; display: none;"><a href="http://delicious.com/"><span class="title">Delicious</span><img alt="Delicious" src="static/images/icons/jstackmenu/delicious-32x32.png"></a></li>
+                            <li class="ui-stackmenu-item" style="opacity: 0; right: 0px; -moz-transform: translate(0.242029px, 0pt) rotate(0deg); -moz-transform-origin: 1032px 50%; top: -22px; display: none;"><a href="http://last.fm/"><span class="title">Last.fm</span><img alt="Last.fm" src="static/images/icons/jstackmenu/lastfm-32x32.png"></a></li>
+                            <li class="ui-stackmenu-item" style="opacity: 0; right: 0px; -moz-transform: translate(0.242029px, 0pt) rotate(0deg); -moz-transform-origin: 1032px 50%; top: -22px; display: none;"><a href="http://myspace.com/"><span class="title">Myspace</span><img alt="Myspace" src="static/images/icons/jstackmenu/myspace-32x32.png"></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="album_singer_brief_statistics">
+                    <ul class="album_singer_brief_statistics_list">
+                        <li> <span class="singer_brief_statistics_item"> ${album.albumStats.listenCount} </span> Plays </li>
+                        <li> <span class="singer_brief_statistics_item"> - </span> Listeners </li>                        
+                        <li> <span class="singer_brief_statistics_item"> ${album.albumStats.songCount} </span> Songs </li>
+                    </ul>
+                </div>
+                <p class="see_more_left_box see_more"> <a href="#">See more<img class="see_more_icon" alt="" src="static/images/icons/forward_icon.png"></a></p>
+
+            </div>
+        </div>
+
+        <div class="ie_shadow_box">
+            <div id="more_information" class="left_box_features ui-corner-all box_shadow">
+                <a href="#">   <div id="more_information_header" class="artist_box_header"> More Information </div></a>
+                <div id="more_information_content">
+
+                </div>
+                <p class="see_more_left_box see_more"> <a href="#">See more<img class="see_more_icon" alt="" src="static/images/icons/forward_icon.png"></a></p>
+
+            </div>
+        </div>
+    </div>
+    <div id="album_center_part" class=" center_content_features ui-corner-all box_shadow">
+        <div class="ie_center_shadow_box">
+            <div id="album_song_list" class="center_box_features">
+                <div id="album_song_list_header" class="center_artist_box_header" >  <a class="center_artist_box_link" href="#"> Song List</a></div>
+                <div class="duration_listeners_header">
+                    <span class="song_list_listeners_link"> Listeners </span>
+                    <!--<span class="song_list_duration_link"> Duration </span> -->
+                </div>
+          
+                <ul class="album_song_list">
+
+                    <c:forEach var="song" items="${songs}">
+<<<<<<< .mine
+                        <li class="song_list_item song_list_grid_1" >
+                            <a href="#"><img class="album_songs_photo"  src="${songs[0].albumid.albumAmazonAsin.coverarturl}"></a>
+=======
+                        <li class="song_list_item song_list_grid_1" ><a class="song_list_icon_link" href="#">  <img class="song_list_blue_button_icon" alt="" src="static/images/icons/forward_icon.png"/></a>
+>>>>>>> .r834
+                            <a href="#" class="song_list_name"> ${song.songName}</a>
+                            <span class="album_songs_box_buttons">
+                                <a href="#" class="user_songs_heart">
+                                    <img title="Play/Add to queue" class=" user_song_box_buttons_image box_icons user_songs_heart_image"  src="static/images/buttons/user_profile_buttons/play_button_blue.png">
+                                </a>
+                                <a href="#" class="user_songs_heart">
+                                    <img class=" user_song_box_buttons_image box_icons user_songs_share_image" title="Share this song"  src="static/images/buttons/user_profile_buttons/mail.png">
+                                </a>
+                                <a href="#" class="user_songs_heart">
+                                    <img class="user_song_box_buttons_image box_icons user_songs_buy_image" title="Buy this song"  src="static/images/buttons/user_profile_buttons/shopping_cart.png">
+                                </a>
+
+                            </span>
+                            <span class="song_list_listened">0 </span>
+                           <!-- <span class="song_list_duration duration">${song.songLength}</span> -->
+                        </li>
+                    </c:forEach>
+
+                </ul>
+                <p class="see_more"> <a href="#">See more<img class="see_more_icon" alt="" src="static/images/icons/forward_icon.png"></a></p>
+            </div>
+
+            <div  class="albums_features center_box_features " >
+
+                <div  class="center_artist_box_header "><a class="center_artist_box_link" href="#">Other Albums</a></div>
+
+                <ul class="artist_top_album_list_new">
+                    <c:forEach var="album" items="${otherAlbums}">
+                        <li class="artist_top_album_list_item_new">
+                            <a title="${album.albumName}" href="album/${album.albumName}">
+                                <img class="artist_top_album_photo song_overlay_shadow " src="${album.albumAmazonAsin.coverarturl}"/>
+                                <img class="artist_top_album_photo_overlay  " src="static/images/overlays/album_overlay.png"/>
+                            </a>
+                            <span class="artist_top_album_name"><a href="#" class="artist_top_album_name_link"> In the End </a></span>
+                            <a  href="#" class="artist_top_album_button brief_buttons blue_default_buttons ui-corner-all">
+                                <img class="blue_button_icon" alt="" src="static/images/icons/blue_buttons/buy_icon_new.png"/>
+                                Buy Album </a>
+                        </li>
+                    </c:forEach>
+                </ul>
+                <!--                <div class="albums_content">
+                    <div class="album_list_width"><a href="#">
+                <c:forEach var="album" items="${otherAlbums}">
+                    <div class="album_jewel_case header_shadow">
+                        <img class="album_down_features " src="static/images/album/cd_case/jewel_case_back_big.png"/>
+                        <img class="album_picture " src="${album.albumAmazonAsin.coverarturl}"/>
+                        <a title="${album.albumName}" href="album/${album.albumName}">
+                            <img class="album_front_features " src="static/images/album/cd_case/jewel_case_front_big.png"/></br>
+                        </a>
+                    </div>
+<<<<<<< .mine
+                </c:forEach>
+            </a>
+        </div>
+        <div class="album_detail_information">
+            <div class="album_prev_next">
+                <a  class="album_prev_link album_change_link" href="#">
+                    <img class="back_next_icons" alt="" src="static/images/icons/blue_buttons/back_icon_new.png">
+                </a>
+                <a  class="album_forw_link album_change_link" href="#">
+                    <img class="back_next_icons" alt="" src="static/images/icons/blue_buttons/play_icon_new.png">
+                </a> <br></br>
+=======
+                    <div class="album_detail_information">
+                        <div class="album_prev_next">
+                            <a  class="album_prev_link album_change_link" href="#">
+                                <img class="back_next_icons" alt="" src="static/images/icons/blue_buttons/back_icon_new.png">
+                            </a>
+                            <a  class="album_forw_link album_change_link" href="#">
+                                <img class="back_next_icons" alt="" src="static/images/icons/forward_icon.png">
+                            </a> <br></br>
+                        </div>
+                        <!--<a href="#" class="album_singer"> In the End, Linkinpark </a>-->
+                        <span class="artist_buy_align">
+                            <p><a  href="#" class="brief_buttons blue_default_buttons ui-corner-all">
+                                    <img class="blue_button_icon" alt="" src="static/images/icons/blue_buttons/buy_icon_new.png"/>Buy Album </a></p>
+                        </span>
+                    </div>
+                    <br>
+                    <p class="see_more"> <a href="#">See more<img class="see_more_icon" alt="" src="static/images/icons/forward_icon.png"></a></p>
+                </div>
+>>>>>>> .r834
+            </div>
+            <a href="#" class="album_singer"> In the End, Linkinpark </a>
+            <span class="artist_buy_align">
+                <p><a  href="#" class="brief_buttons blue_default_buttons ui-corner-all">
+                        <img class="blue_button_icon" alt="" src="static/images/icons/blue_buttons/buy_icon_new.png"/>Buy Album </a></p>
+            </span>
+        </div>
+        <br>
+        <p class="see_more"> <a href="#">See more<img class="see_more_icon" alt="" src="static/images/icons/blue_buttons/play_icon_new.png"></a></p>
+    </div>-->
+            </div>
+
+            <!--
+            <div  class="albums_features center_box_features " >
+
+                <div  class="center_artist_box_header "><a class="center_artist_box_link" href="#"> Similar Albums</a></div>
+                <div class="albums_content">
+                    <div class="album_list_width"><a href="#">
+
+            <c:forEach var="album" items="${similiarAlbums}">
+                <div class="album_jewel_case header_shadow">
+                    <img class="album_down_features " src="static/images/album/cd_case/jewel_case_back_big.png"/>
+                    <img class="album_picture " src="${album.albumAmazonAsin.coverarturl}"/>
+                    <a title="${album.albumName}" href="album/${album.albumName}">
+                        <img class="album_front_features " src="static/images/album/cd_case/jewel_case_front_big.png"/></br>
+                    </a>
+                </div>
+            </c:forEach>
+
+        </a>
+    </div>
+    <div class="album_detail_information">
+        <div class="album_prev_next">
+            <a  class="album_prev_link album_change_link" href="#">
+                <img class="back_next_icons" alt="" src="static/images/icons/blue_buttons/back_icon_new.png">
+            </a>
+            <a  class="album_forw_link album_change_link" href="#">
+                <img class="back_next_icons" alt="" src="static/images/icons/forward_icon.png">
+            </a> <br></br>
+        </div>
+        <a href="#" class="album_singer"> In the End, Linkinpark </a>
+        <span class="artist_buy_align">
+            <p><a  href="#" class="brief_buttons blue_default_buttons ui-corner-all">
+                    <img class="blue_button_icon" alt="" src="static/images/icons/blue_buttons/buy_icon_new.png"/>Buy Album </a></p>
+        </span>
+    </div>
+    <br>
+    <p class="see_more"> <a href="#">See more<img class="see_more_icon" alt="" src="static/images/icons/forward_icon.png"></a></p>
+</div>
+</div>
+            -->
+
+            <div  class="recent_comments center_box_features" >
+                <div class="recent_comments_content">
+
+                </div>
+                <p class="see_more"> <a href="#">See more<img class="see_more_icon" alt="" src="static/images/icons/forward_icon.png"></a></p>
+            </div>
+        </div>
+    </div>
+    <div id="album_right_part" class="right_content_features">
+        <div class="ie_shadow_box">
+            <div id="album_store_box" class="right_box_features ui-corner-all box_shadow">
+                <a href="#"><div  class="artist_box_header"> Store </div> </a>
+            </div>
+        </div>
+        <div class="ie_shadow_box">
+            <div id="album_listeners_box" class="right_box_features ui-corner-all box_shadow">
+                <a href="#"><div  class="artist_box_header"> Listeners </div> </a>
+                <div class="top_listeners_content">
+                    <ul class="common_friend_list">
+
+                        <c:forEach var="albumFan" items="${albumFans}">
+                            <li class="common_friend_list_item"> <a  class="common_friend_photo_link" href="#"><img class="common_profile_photo"src="static/images/user/small/1/brokensword.bmp" /></a>
+                                <br/><a class="common_profile_nickname" href="user/${albumFan.userid.userName}">${albumFan.userid.userName}</a>
+                                <br/><span class="common_profile_location" >${albumFan.userid.locationCity.city}, ${albumFan.userid.locationCity.countryCode.country}</span>
+                            </li>
+                        </c:forEach>
+
+                    </ul>
+                </div>
+                <p class="see_more_right_box see_more"> <a href="#">See more<img class="see_more_icon" alt="" src="static/images/icons/forward_icon.png"></a></p>
+            </div>
+        </div>
+        <div class="ie_shadow_box">
+            <div  class="recent_activity right_box_features ui-corner-all box_shadow">
+                <a href="#">  <div id=recent_activity_header" class="artist_box_header"> Recent Activity </div></a>
+                <div class="recent_activity_content">
+                    <ul class="recent_activity_list">
+
+                        <c:forEach var="activity" items="${activities}">
+                            <li>
+                                <a class="activity_symbol  ui-state-error-text ui-icon ui-icon-check" href="#"></a>
+                                ${activity.activity}
+                            </li>
+                        </c:forEach>
+
+                    </ul>
+                </div>
+                <p class="see_more_right_box see_more"> <a href="#">See more<img class="see_more_icon" alt="" src="static/images/icons/blue_buttons/play_icon_new.png"></a></p>
+            </div>
+<<<<<<< .mine
+=======
+            <p class="see_more_right_box see_more"> <a href="#">See more<img class="see_more_icon" alt="" src="static/images/icons/forward_icon.png"></a></p>
+        </div>
+>>>>>>> .r834
+
+        </div>
+
+    </div>
+</body>
+</html>
+
+

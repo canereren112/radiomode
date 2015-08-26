@@ -1,0 +1,16 @@
+/* 
+    Document   : ie7-core
+    Created on : 12.Haz.2010, 01:29:33
+    Author     : CANER
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}

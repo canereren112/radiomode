@@ -1,0 +1,53 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+    <head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">,
+    <link type="text/css" href="../development-bundle/themes/custom-theme/ui.all.css" rel="stylesheet" />
+    <script type="text/javascript" src="../development-bundle/jquery-1.3.2.js"></script>
+    <script type="text/javascript" src="../development-bundle/ui/ui.core.js"></script>
+    <script type="text/javascript" src="../development-bundle/ui/ui.tabs.js"></script>
+    <script type="text/javascript" src="../development-bundle/ui/ui.sortable.js"></script>
+   <link type="text/css" href="../development-bundle/demos.css" rel="stylesheet" />
+
+
+    <script type="text/javascript">
+        $(function() {
+            $("#tabs").tabs().find(".ui-tabs-nav").sortable({axis:'x'});
+        });
+    </script>
+
+</head>
+<body><div class="demo">
+
+    <div id="tabs">
+        <ul>
+            <li><a href="#tabs-1">Home</a></li>
+            <li><a href="#tabs-2">Radio</a></li>
+            <li><a href="#tabs-3">Music</a></li>
+            <li><a href="#tabs-4">People</a></li>
+            <li><a href="#tabs-5">Events</a></li>
+            <li><a href="#tabs-6">Help US</a></li>
+        </ul>
+        <div id="tabs-1"></div>
+
+        <div id="tabs-2"></div>
+
+        <div id="tabs-3"></div>
+
+        <div id="tabs-4"></div>
+
+        <div id="tabs-5"></div>
+
+        <div id="tabs-6"></div>
+
+    </div>
+
+
+
+</body>
+</html>

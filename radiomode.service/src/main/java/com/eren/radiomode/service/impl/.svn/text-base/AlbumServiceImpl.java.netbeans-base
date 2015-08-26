@@ -1,0 +1,100 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package com.eren.radiomode.service.impl;
+
+import com.eren.radiomode.dao.parent.EntityDAOFactory;
+import com.eren.radiomode.domain.Tag;
+import com.eren.radiomode.domain.album.Album;
+import com.eren.radiomode.domain.album.AlbumFans;
+import com.eren.radiomode.domain.album.AlbumStats;
+import com.eren.radiomode.domain.album.AlbumTags;
+import com.eren.radiomode.domain.artist.Artist;
+import com.eren.radiomode.domain.user.User;
+import com.eren.radiomode.domain.user.UserActivity;
+import com.eren.radiomode.service.AlbumService;
+import java.util.Date;
+import java.util.List;
+import org.springframework.beans.factory.annotation.Autowired;
+
+/**
+ *
+ * @author work
+ */
+public class AlbumServiceImpl implements AlbumService {
+
+    @Autowired
+    private EntityDAOFactory entityDAOFactory;
+
+    public EntityDAOFactory getEntityDAOFactory() {
+        return entityDAOFactory;
+    }
+
+    public void setEntityDAOFactory(EntityDAOFactory entityDAOFactory) {
+        this.entityDAOFactory = entityDAOFactory;
+    }
+
+    public List<Album> searchAlbumsLikeName(String name, int limit) {
+        return entityDAOFactory.getAlbumDAO().searchAlbumsLikeName(name, limit);
+    }
+
+    public List<Album> getAlbumsByArtist(Artist artist, int firstResult, int maxResults) {
+        Album album = new Album();
+        album.setArtistid(artist);
+        return entityDAOFactory.getAlbumDAO().loadEntityByParam(album, firstResult, maxResults, null);
+    }
+
+    public void loveAlbum(Integer albumid, User user) {
+        AlbumFans af = new AlbumFans();
+        Album album = (Album) entityDAOFactory.getAlbumDAO().loadEntity(Album.class, albumid);
+        af.setAlbumid(album);
+        af.setUserid(user);
+        af.setType(AlbumFans.Type.LIKE.name());
+        entityDAOFactory.getAlbumDAO().saveEntity(af);
+
+        album.getAlbumStats().setFanCount(album.getAlbumStats().getFanCount() + 1);
+        entityDAOFactory.getAlbumDAO().saveEntity(album);
+
+        user.getUserStats().setAlbumLikeCount(user.getUserStats().getAlbumLikeCount() + 1);
+        entityDAOFactory.getUserDAO().saveEntity(user);
+
+        UserActivity activity = new UserActivity();
+        activity.setUserid(user);
+        activity.setActivityDate(new Date());
+        activity.setActivity(user.getUserName() + " loved " + album.getArtistid().getName() + " - " + album.getAlbumName() + " album");
+        activity.setActivityType(UserActivity.ActivityType.LOVE.name());
+        activity.setActionType(UserActivity.ActionType.INSERT.name());
+        activity.setEntityType(UserActivity.EntityType.ALBUM.name());
+        activity.setEntityid(albumid);
+        entityDAOFactory.getUserDAO().saveEntity(activity);
+    }
+
+    public Album getAlbumByName(String albumName) {
+        Album album = new Album();
+        album.setAlbumName(albumName);
+        List<Album> albums = entityDAOFactory.getAlbumDAO().loadEntityByParam(album);
+        if (albums.size() > 0) {
+            return albums.get(0);
+        }
+        return null;
+    }
+
+    public List<AlbumFans> getAlbumFans(Album album, int first, int max) {
+        AlbumFans albumFans = new AlbumFans();
+        albumFans.setAlbumid(album);
+        albumFans.setType(AlbumFans.Type.LIKE.name());
+        List<AlbumFans> fans = entityDAOFactory.getArtistDAO().loadEntityByParam(albumFans, first, max, "id");
+        return fans;
+    }
+
+    public List<AlbumTags> getTopAlbumsByTag(Tag tag, int first, int max) {
+        return entityDAOFactory.getAlbumDAO().getTopAlbumsByTag(tag, first, max);
+    }
+
+    public List<AlbumStats> getTopAlbums(int first, int max) {
+        AlbumStats stats = new AlbumStats();
+        List<AlbumStats> list = entityDAOFactory.getAlbumDAO().loadEntityByParam(stats, first, max, "listenCount");
+        return list;
+    }
+}

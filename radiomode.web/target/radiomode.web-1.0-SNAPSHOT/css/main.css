@@ -1,0 +1,276 @@
+
+/*
+    Document   : index
+    Created on : 30.Eki.2009, 01:30:25
+    Author     : CANER
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/*
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+#signup_panel {
+    font-family:  Arial, sans-serif; 
+    margin: 20px 5px;
+    padding: 5px;
+}
+
+#main_content {
+    /*background-color:#E8E8E8;*/
+    background-color: #F1F1F1;
+    border: 1px solid #AAAAAA;
+    margin-left: 0;
+    position: relative;
+
+}
+
+.main_right_content{
+    float: none;
+    margin-left: 794px;
+}
+
+.main_center_content{
+    float: left;
+    margin-left: 15px;
+}
+
+#main_big_content{
+    
+}
+
+#main_quick_links{
+    height: 200px;
+}
+
+#main_notifications{
+    height: 450px;
+}
+
+#main_recommended_albums{
+    height: 350px;
+}
+
+#main_recommended_artists{
+    height: 334px;
+}
+
+#main_recommended_songs{
+    height: 270px;
+}
+
+#main_store_box{
+    height: 410px;
+}
+
+#main_neighbours_activities_box{
+
+}
+
+#main_friends_activiticorees_box{
+    height: 360px;
+}
+
+.main_artist_list{
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.main_artist_list_photo{
+
+    height: 80px;
+    width: 100px;
+}
+
+.main_artist_list_link:hover{
+    background : none;
+}
+.main_artist_list_name{
+
+}
+
+.main_artist_list_name_span{
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 24px;
+    margin-top: 6px;
+    text-align: center;
+}
+.main_artist_list_name:hover{
+
+}
+
+
+.main_artist_list li{
+    display: inline;
+    float: left;
+    height: 130px;
+    margin-left: 6px;
+    width: 130px;
+}
+
+
+
+.main_song_list{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.main_song_list_photo{
+    height: 54px;
+    margin-left: 6px;
+    margin-top: 3px;
+    opacity: 0.8;
+    position: absolute;
+    width: 67px;
+    z-index: 3;
+}
+
+
+.main_song_list_name{
+    display: block;
+    font-size: 11px;
+    margin-top: 65px;
+    text-align: center;
+}
+
+.main_song_list_name:hover{
+
+}
+
+
+.main_song_list li{
+    display: inline;
+    float: left;
+    height: 104px;
+    margin-left: 6px;
+    width: 81px;
+}
+
+.main_song_list_case{
+    position: absolute;
+    width: 79px;
+}
+
+
+.main_album_list{
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.main_album_list_photo{
+    height: 85px;
+    margin-left: 0;
+    margin-top: 0;
+    position: absolute;
+    width: 85px;
+
+}
+
+
+.main_album_list_name{
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 15px;
+    text-align: center;
+    width: 85px;
+}
+
+.main_album_list_name:hover{
+
+}
+
+.main_album_list li{
+    display: inline;
+    float: left;
+    height: 139px;
+    margin-left: 6px;
+    width: 100px;
+}
+
+.main_album_jewel_case{
+
+    height: 79px;
+    width: 91px;
+}
+
+.main_album_down_features{
+    margin-left: 0;
+    margin-top: 0;
+    position: absolute;
+    width: 90px;
+}
+
+.main_album_front_features{
+    margin-left: 0;
+    margin-top: 0;
+    position: absolute;
+    width: 90px;
+}
+
+.small_profile_outline{
+    height: 52px;
+    margin-left: 6px;
+    margin-top: 6px;
+    position: absolute;
+}
+
+
+.main_activities_profile_photo{
+    height: 46px;
+    margin-left: 12px;
+    margin-top: 9px;
+    position: absolute;
+    width: 46px;
+}
+
+.main_activities_symbol{
+    margin-left: 97px;
+    margin-top: 20px;
+    position: absolute;
+}
+.main_activities_item{
+    height: 57px;
+    margin-left: 145px;
+    margin-top: 1px;
+    position: absolute;
+}
+
+.main_activities_list{
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.main_activities_list li{
+    height: 55px;
+    margin-top: 5px;
+}
+
+#main_friends_activities_box{
+
+}
+
+.main_artist_list_photo_overlay{
+    height: 40px;
+    margin-left: -100px;
+    margin-top: 0px;
+    position: absolute;
+}
+
+.main_song_list_photo_overlay{
+    height: 33px;
+    margin-left: 6px;
+    margin-top: 3px;
+    position: absolute;
+    z-index: 3;
+}
+
+.main_song_list_album_overlay{
+    height: 44px;
+    margin-top: 0;
+    position: absolute;
+}

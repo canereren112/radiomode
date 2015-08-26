@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/repos/!svn/ver/802/trunk/XMode/radiomode.domain
+END
+nbactions.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repos/!svn/ver/883/trunk/XMode/radiomode.domain/nbactions.xml
+END
+nb-configuration.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/!svn/ver/883/trunk/XMode/radiomode.domain/nb-configuration.xml
+END
+pom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/repos/!svn/ver/883/trunk/XMode/radiomode.domain/pom.xml
+END

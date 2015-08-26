@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/775/trunk/XMode/radiomode.service/src/test/java/com/eren/radiomode/service/impl
+END
+UserServiceImplTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repos/!svn/ver/755/trunk/XMode/radiomode.service/src/test/java/com/eren/radiomode/service/impl/UserServiceImplTest.java
+END
+ListenHistoryServiceImplTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repos/!svn/ver/775/trunk/XMode/radiomode.service/src/test/java/com/eren/radiomode/service/impl/ListenHistoryServiceImplTest.java
+END
+FriendListServiceImplTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repos/!svn/ver/775/trunk/XMode/radiomode.service/src/test/java/com/eren/radiomode/service/impl/FriendListServiceImplTest.java
+END

@@ -1,0 +1,48 @@
+<<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+    <head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body>
+<div id="edit_profile_general_content" class="ui-corner-all">
+    <div id="edit_profile_general_brief_box"  class="ui-corner-all">
+        <div id="photo_edit">
+            <img id="general_profile_photo" src="static/test/images/caner.jpg"></img>
+            <input type="file" name=""></input>
+             <input type="submit" value="Upload" name=""></input>
+        </div>
+        <div id="name_surname">
+            <p>  Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp:&nbsp;<input type="text" name="" value=""></input></p>
+        <p> Surname : <input type="text" name="" value=""></input></p>
+        </div>
+        <div id="gender_form">
+            Gender : <input type="radio" name="" value="">Male</input>
+            <input type="radio" name="" value="">Female</input>
+            <input type="radio" name="" value="">Other</input>
+        </div>
+        <div id="country_location">
+            <p>Country : <select name=""><option></option> </select></p>
+            <p> Current Country : <select name=""><option></option> </select></p>
+            <p>Current City : <select name=""><option></option> </select></p>
+        </div>
+        <div id="date_of_birth">Date of birth : <select name=""><option></option> </select>
+            <select name=""><option></option> </select>
+            <select name=""><option></option> </select>
+        </div>
+        <div id="web_page_links">Web Page : <input type="text" name="" value=""></input></div>
+        <div id="about_me_text_box">
+            About me <textarea cols="45" rows="4"></textarea>
+            <div id="save_button">
+                <input type="submit" name=" " value="Save All" ></input>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

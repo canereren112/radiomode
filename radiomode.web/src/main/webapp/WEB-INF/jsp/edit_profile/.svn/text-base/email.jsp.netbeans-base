@@ -1,0 +1,52 @@
+<%@ include file="/WEB-INF/jsp/fragments/includes.jsp" %>
+<html>
+    <head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script type="text/javascript">
+        $(document).ready(function() {
+            var email = new EMAIL();
+        });
+    </script>
+</head>
+<body>
+<input type="hidden" name="resultHidden" value="${param.result}" />
+<div class="setting_store_box type2_store_box_with_top_menu type2_store_box general_store_box right_box_features ui-corner-all box_shadow">
+    <a href="#"><div class="artist_box_header"> Store </div> </a>
+</div>
+
+<div class="sub_pages_settings sub_pages_with_top_menu sub_pages_left_content_shape box_shadow ui-corner-all">
+    <div id="edit_profile_email_box" class="ui-corner-all">
+        <div id="resultBox" class="ui-state-highlight ui-corner-all" style="padding: 0pt 0.7em; margin-top: 20px;">
+            <p><span class="ui-icon" style="float: left; margin-right: 0.3em;"></span>
+                <span id="resultMessage">${param.resultMessage}</span>
+        </div>
+        <form:form id="editProfileEmailForm" modelAttribute="notifications"  method="POST" action="edit_profile/email">
+            <table class="email_table">
+                <tbody>
+                    <tr><td> <form:checkbox path="noSend"/>&nbsp;&nbsp;Never Email me
+                        </td></tr>
+                    <tr><td>  <form:select path="weeklyNewsLetter"><form:option value="true" label="Email Me" /> <form:option value="false" label="Dont't Email Me" /> </form:select>&nbsp;&nbsp;a weekly newsletter.
+                        </td></tr>
+                    <tr><td><form:select path="incomingMessage"><form:option value="true" label="Email Me" /> <form:option value="false" label="Dont't Email Me" /> </form:select>&nbsp;&nbsp;if I recieve a message
+                        </td></tr>
+                    <tr><td> <form:select path="friendshipRequest"><form:option value="true" label="Email Me" /> <form:option value="false" label="Dont't Email Me" /> </form:select>&nbsp;&nbsp;if someane sends me a friend request
+                        </td></tr>
+                    <tr><td><form:select path="wallComment"><form:option value="true" label="Email Me" /> <form:option value="false" label="Dont't Email Me" /> </form:select>&nbsp;&nbsp;if someone write on my wall
+                        </td></tr>
+                    <tr><td><form:select path="stationComment"><form:option value="true" label="Email Me" /> <form:option value="false" label="Dont't Email Me" /> </form:select>&nbsp;&nbsp;if someone write a comment for my station
+                        </td></tr>
+                    <tr><td> <form:select path="concertAlert"><form:option value="true" label="Email Me" /> <form:option value="false" label="Dont't Email Me" /> </form:select>&nbsp;&nbsp;if my favorite singer come to my region
+                        </td></tr>
+                </tbody>
+
+            </table>
+            <div id="save_button">
+                <input type="submit" name="editButton" value="Save All" s/>
+            </div>
+        </form:form>
+    </div>
+</div>
+
+</body>
+</html>

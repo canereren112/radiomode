@@ -1,0 +1,119 @@
+<%@ include file="/WEB-INF/jsp/fragments/includes.jsp" %>
+<html>
+    <head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script type="text/javascript">
+        jQuery(document).ready(function() {
+            calculateBigPageHeight();
+        });
+    </script>
+</head>
+<body>
+<div id="artist_albums_content" class="ui-corner-all">
+    <div id="artist_albums_header" class="ui-corner-all top_header">
+        Radiohead Albums
+    </div>
+    <div id="artist_albums">
+        <div id="left_albums">
+            <div id="left_album_first" class="album_container">
+
+                <img src="static/test/images/caner.jpg" class="ui-corner-all artist_album_photo" align="left"/>
+                <span class="album_header"> Infra RED</span>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <span class="album_information">10 Tracks <br>
+                    &nbsp;&nbsp;&nbsp; Released:10/11/1999 <br>
+                    &nbsp;&nbsp;&nbsp; Sony Music Company
+                </span>
+
+            </div>
+            <div id="left_album_second" class="album_container">
+                <img src="static/test/images/caner.jpg" class="ui-corner-all artist_album_photo" align="left"/>
+                <span class="album_header"> Infra RED</span>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <span class="album_information">10 Tracks <br>
+                    &nbsp;&nbsp;&nbsp; Released:10/11/1999 <br>
+                    &nbsp;&nbsp;&nbsp; Sony Music Company
+                </span>
+            </div>
+            <div id="left_album_third" class="album_container">
+                <img src="static/test/images/caner.jpg" class="ui-corner-all artist_album_photo" align="left"/>
+                <span class="album_header"> Infra RED</span>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <span class="album_information">10 Tracks <br>
+                    &nbsp;&nbsp;&nbsp; Released:10/11/1999 <br>
+                    &nbsp;&nbsp;&nbsp; Sony Music Company
+                </span>
+            </div>
+        </div>
+        <div id="right_albums">
+
+            <div id="right_album_first" class="album_container">
+                <img src="static/test/images/caner.jpg" class="ui-corner-all artist_album_photo" align="left"/>
+                <span class="album_header"> Infra RED</span>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <span class="album_information">10 Tracks <br>
+                    &nbsp;&nbsp;&nbsp; Released:10/11/1999 <br>
+                    &nbsp;&nbsp;&nbsp; Sony Music Company
+                </span>
+            </div>
+            <div id="right_album_second" class="album_container">
+                <img src="static/test/images/caner.jpg" class="ui-corner-all artist_album_photo" align="left"/>
+                <span class="album_header"> Infra RED</span>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <span class="album_information">10 Tracks <br>
+                    &nbsp;&nbsp;&nbsp; Released:10/11/1999 <br>
+                    &nbsp;&nbsp;&nbsp; Sony Music Company
+                </span>
+            </div>
+            <div id="right_album_third" class="album_container">
+                <img src="static/test/images/caner.jpg" class="ui-corner-all artist_album_photo" align="left"/>
+                <span class="album_header"> Infra RED</span>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <span class="album_information">10 Tracks <br>
+                    &nbsp;&nbsp;&nbsp; Released:10/11/1999 <br>
+                    &nbsp;&nbsp;&nbsp; Sony Music Company
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+

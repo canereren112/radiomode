@@ -1,0 +1,20 @@
+# Veritabani baglanti degiskenleri
+
+jdbc.url=jdbc:mysql://192.168.2.5:3306/test_radiomode
+jdbc.username=radiomode
+jdbc.password=radiom47
+jdbc.driverClassName=com.mysql.jdbc.Driver
+
+# kullanilmiyor
+jdbc.defaultAutoCommit=true
+jdbc.minIdle=1
+jdbc.maxIdle=4
+jdbc.maxActive=10
+jdbc.validationQuery=select 1
+jdbc.initialSize=2
+
+# kullanilmiyor
+corePoolSize=2
+maxPoolSize=100
+queueCapacity=100
+keepAliveSeconds=60

@@ -1,0 +1,26 @@
+/* 
+    Document   : image_test
+    Created on : 01.May.2011, 00:34:35
+    Author     : caner
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+.image_container{
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+}
+
+.inside_image{
+    
+}

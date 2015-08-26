@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/!svn/ver/850/trunk/XMode/radiomode.web/src/main/webapp/js/artist
+END
+artist.js
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/!svn/ver/886/trunk/XMode/radiomode.web/src/main/webapp/js/artist/artist.js
+END
+artist_listeners.js
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/!svn/ver/886/trunk/XMode/radiomode.web/src/main/webapp/js/artist/artist_listeners.js
+END
+artist_similiar_artists.js
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/886/trunk/XMode/radiomode.web/src/main/webapp/js/artist/artist_similiar_artists.js
+END
+artist_popular_songs.js
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/886/trunk/XMode/radiomode.web/src/main/webapp/js/artist/artist_popular_songs.js
+END
+artist_albums.js
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/!svn/ver/886/trunk/XMode/radiomode.web/src/main/webapp/js/artist/artist_albums.js
+END

@@ -1,0 +1,519 @@
+/* 
+    Document   : newcssartist
+    Created on : 26.Ara.2009, 03:33:21
+    Author     : CANER
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+#artist_content {
+    /*background-color:#E8E8E8;*/
+    background-color:#F1F1F1;
+    border:1px solid #AAAAAA;    
+}
+
+#artist_big_content{
+
+}
+.artist_album_photo{
+    border:1px solid gray;
+    height:150px;
+    width:130px;
+}
+
+.album_header{
+    color:#6BAF31;
+    font-size:15px;
+    font-weight:bold;
+    padding-left:10px;
+    text-decoration:underline;
+}
+
+.album_information{
+    padding-left:10px;
+    font-size:11px;
+}
+
+
+#artist_albums_content{
+    width:600px;
+    height:700px;
+    background-color:white;
+    margin:10px;
+}
+
+#artist_albums_header{
+
+}
+
+#artist_albums_group{
+
+}
+
+.album_container{
+    border-bottom: 1px solid black;
+    background-color:white;
+    height:160px;
+    padding:10px;
+}
+
+#left_albums{
+    padding-top:10px;
+    height:600px;
+    width:300px;
+    background-color:blue;
+
+}
+
+#right_albums{
+    padding-top:10px;
+    margin-top:-610px;
+    margin-left:300px;
+    width:300px;
+    height:600px;
+    background-color:green;
+}
+
+#artist_brief{
+    min-height: 90px;
+    padding-bottom: 20px;
+}
+
+
+
+#artist_photo{
+    width: 200px;
+    height : 200px;
+
+}
+#artist_profile_photo{
+    height: 167px;
+    margin: 28px 15px 15px 30px;
+    position: absolute;
+    width: 121px;
+    z-index: 0;
+}
+
+#view_link{
+    float:right;
+    margin-right:54px;
+    margin-top:210px;
+}
+
+#artist_buttons{
+    margin-top:45px;
+    padding-left: 40px;
+    width:140px
+}
+
+
+.same_line{
+    display:inline;
+}
+
+
+
+#artist_info{
+    color: black;
+    font-size: 12px;
+    line-height: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 0;
+    padding: 15px 10px;
+}
+
+
+#read_more_link{
+    float:right;
+    margin-top:5px;
+}
+
+#add_station_button{
+
+}
+
+.artist_biography_text{
+    font-size: 13px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+
+#artist_left_part{
+
+
+}
+
+#artist_right_part{
+
+}
+
+
+
+#artist_store_box{
+    height: 410px;
+}
+
+
+#similar_artists{
+    color: #444444;
+    height:200px;
+}
+
+.singer_photo{
+    height: 73px;
+    position: relative;
+    width: 92px;
+}
+
+.singer_features{
+    float: left;
+    height: 105px;
+    margin-left: 9px;
+    padding: 10px;
+    text-align: center;
+    width: 79px;
+}
+
+.singer_name{
+    font-weight: bold;
+    margin-top: 14px;
+    text-align: center;
+    width: 92px;
+}
+
+.left_listener_box{
+    min-height: 70px;
+    padding-bottom: 35px;
+}
+
+#top_stations{
+    height:480px;
+}
+
+#top_stations ul{
+    list-style-type: none;
+    padding-left:15px;
+}
+
+#top_stations li{
+    margin-top:15px;
+}
+
+.top_station_singers a:visited{
+
+}
+
+#top_stations a:visited{
+
+}
+
+.radio_nickname a:visited{
+    text-decoration: none;
+    color: #444444;
+}
+
+.top_stations_list_item{
+
+}
+
+.top_station_name{
+    font-size:14px;
+}
+
+
+
+.buy_album_button{
+    font-size:11px;
+    margin-top:10px;
+}
+
+.album_singer{
+    margin-bottom: 5px;
+}
+
+.right_album{
+    float:right;
+}
+
+.middle_album{
+    margin-left:70px;
+}
+
+.singer_name a:visited{
+    text-decoration:none;
+
+}
+
+.singer_photo_link a:visited{
+    text-decoration:none;
+
+}
+
+#similar_artists a:visited{
+
+
+}
+
+
+.singer_photo_link:hover{
+    background: none;
+}
+
+
+.album_singer {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#top_listeners{
+
+}
+.top_stations_nickname{
+    font-style: italic;
+}
+
+#top_songs{
+    padding-bottom: 45px;
+}
+
+
+#artist_center_part{
+
+}
+
+#similar_artist_see_more{
+    margin-top:23px;
+}
+
+
+.similar_artist_cover{
+
+}
+
+
+
+#artist_left_photo_box{
+    height:460px;
+    padding-top:5px;
+}
+
+.artis_singer_brief_statistics{
+    border-top:1px solid #AAAAAA;
+    font-weight:bold;
+    margin-left:5px;
+    margin-right:5px;
+    margin-top:15px;
+}
+
+.artist_singer_brief_statistics_list{
+    list-style:none ;
+    margin-left:15px;
+    margin-top:5px;
+    color: #777777;
+    font-weight: normal;
+}
+
+#center_biography_link{
+    border-top: none;
+}
+
+
+.artist_song_list_grid_1{
+    border-bottom: 1px solid #ffffff;
+    border-top: 1px solid #ffffff;
+}
+
+.artist_song_list_item{
+    padding-bottom: 6px;
+    padding-top: 6px;
+    height: 22px;
+}
+
+li.artist_song_list_item:hover {
+    background-color: #CFECF7;
+}
+
+.artist_song_list_name{
+    float:left;
+    margin-left:10px;
+    margin-top: 2px;
+    font-size: 11px;
+    color:#444444;
+}
+
+.artist_song_list_album_name{
+    left: 356px;
+    margin-top: 2px;
+    position: absolute;
+    text-align: left;
+}
+
+.artist_song_list_duration{
+    margin-top: 8px;
+    position: absolute;
+    right: 83px;
+}
+
+.artist_song_list_listened{
+    float: right;
+    margin-right: 10px;
+    margin-top: 2px;
+}
+
+.artist_general_songs_box_buttons{
+    left: 267px;
+    margin-top: 2px;
+    position: absolute;
+}
+
+
+.artist_songs_sub_header{
+    color: #222222;
+    font-size: 11px;
+    height: 20px;
+    margin-top: 5px;
+    text-decoration: underline;
+}
+
+.artist_song_list_duration_link{
+    float: right;
+    margin-right: 10px;
+}
+
+.artist_song_list_listeners_link{
+    float:right;
+    margin-right:20px;
+}
+.artist_song_list_album{
+    float: right;
+    margin-right: 57px;
+}
+
+.artist_songs_photo{
+    float: left;
+    height: 34px;
+    margin-top: -6px;
+    width: 34px
+}
+
+.artist_similar_photo{
+    height: 100px;
+    margin: 11px 15px 15px;
+    position: absolute;
+    width: 125px;
+    z-index: 0;
+}
+
+.artist_similar_poster_features{
+    margin-left: 15px;
+    height: 75px;
+    margin-top: 11px;
+    position: absolute;
+}
+
+.artist_similar_name_link{
+    margin-top: 9px;
+    font-size: 17px;
+    display: block;
+    font-weight: bold;
+}
+
+.artist_similar_information_div{
+    margin-left: 155px;
+}
+
+.artist_similar_brief{
+    font-size: 12px;
+    margin-top: 7px;
+}
+
+.artist_similar_table_data{
+    height: 150px;
+    padding: 10px 20px 10px 0px;
+}
+
+.artist_similar_table_data:hover{
+    background-color:#D8eff8;
+}
+.artist_similar_table_row{
+    padding-bottom: 40px;
+}
+
+.artist_more_information_header{
+    color: #0094D6;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.artist_more_information_table tr{
+    height: 30px;
+}
+
+.artist_more_information_table td{
+    padding-right: 30px;
+}
+
+.artist_more_information_table{
+    margin-left: 10px;
+}
+
+.popular_songs_box_buttons{
+    left: 316px;
+    margin-top: 6px;
+    position: absolute;
+}
+
+.similar_artist_list_photo_overlay{
+    height: 40px;
+    margin-left: -39px;
+    margin-top: -73px;
+    position: absolute;
+}
+
+.artist_album_song_list_listened{
+    margin-left: 687px;
+    margin-top: 8px;
+    position: absolute;
+}
+
+.artist_album_song_list_duration{
+    margin-left: 585px;
+    margin-top: 8px;
+    position: absolute;
+}
+
+.artist_album_song_list_name{
+    color: #444444;
+    margin-left: 400px;
+    margin-top: 8px;
+    position: absolute; 
+}
+
+.artist_album_song_list_name:hover{
+    background: none;
+}
+
+.artist_album_song_list_album{
+    float: right;
+    margin-right: 110px;
+}
+
+.artist_album_song_list_album_name{
+    color: #444444;
+    margin-left: 58px;
+    margin-top: 8px;
+    position: absolute;
+}

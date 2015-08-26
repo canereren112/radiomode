@@ -1,0 +1,163 @@
+/* 
+    Document   : button_test
+    Created on : 30.Ağu.2010, 21:22:14
+    Author     : EREN
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+a{
+    text-decoration: none;
+}
+
+.button_gray{
+   
+   
+    height: 140px;
+   width: 100px;
+   margin-left: auto;
+   margin-right: auto;
+    background-color: blue;
+}
+.gray_button_link{
+    width: 145px;
+    height:48px;
+}
+.gray_button_glow{
+    height:48px;
+    width:145px;
+    background: url(../../images/buttons/gray_buttons/gray_button_default.png);
+
+}
+
+a:hover .gray_button_glow{
+    background:url("../../images/buttons/gray_buttons/gray_button_hover.png") repeat-x scroll 50% 50% transparent;
+}
+
+a:active .gray_button_glow{
+    background:url("../../images/buttons/gray_buttons/gray_button_active.png") repeat-x scroll 50% 50% transparent;
+}
+
+.gray_button_inside_link{
+    color:#65c7de;
+    font-family:fantasy;
+    font-size:14px;
+    font-weight:bold;
+    height:31px;
+    padding-top:12px;
+    text-align:center;
+    text-decoration:none;
+    width:145px;
+}
+
+.button_blue{
+    width : 300px;
+    height:400px;
+}
+
+.blue_button_link{
+    width: 145px;
+    height:48px;
+}
+.blue_button_glow{
+    height:48px;
+    width:145px;
+    background: url(../../images/buttons/blue_buttons/blue_button_default.png);
+
+}
+
+a:hover .blue_button_glow{
+    background:url("../../images/buttons/blue_buttons/blue_button_hover.png") repeat-x scroll 50% 50% transparent;
+}
+
+a:active .blue_button_glow{
+    background:url("../../images/buttons/blue_buttons/blue_button_active.png") repeat-x scroll 50% 50% transparent;
+}
+
+.blue_button_inside_link{
+    color:#ffffff;
+    font-family:fantasy;
+    font-size:14px;
+    font-weight:bold;
+    height:31px;
+    padding-top:12px;
+    text-align:center;
+    text-decoration:none;
+    width:145px;
+}
+
+
+.gray_button_link{
+    width: 145px;
+    height:48px;
+}
+.gray_button_glow{
+    height:48px;
+    width:145px;
+    background: url(../../images/buttons/gray_buttons/gray_button_default.png);
+
+}
+
+a:hover .gray_button_glow{
+    background:url("../../images/buttons/gray_buttons/gray_button_hover.png") repeat-x scroll 50% 50% transparent;
+}
+
+a:active .gray_button_glow{
+    background:url("../../images/buttons/gray_buttons/gray_button_active.png") repeat-x scroll 50% 50% transparent;
+}
+
+.gray_button_inside_link{
+    color:#65c7de;
+    font-family:fantasy;
+    font-size:14px;
+    font-weight:bold;
+    height:31px;
+    padding-top:12px;
+    text-align:center;
+    text-decoration:none;
+    width:145px;
+}
+
+.button_blue{
+    width : 300px;
+    height:400px;
+}
+
+.blue_button_link{
+    width: 145px;
+    height:48px;
+}
+.blue_button_glow{
+    height:48px;
+    width:145px;
+    background: url(../../images/buttons/blue_buttons/blue_button_default.png);
+
+}
+
+a:hover .blue_button_glow{
+    background:url("../../images/buttons/blue_buttons/blue_button_hover.png") repeat-x scroll 50% 50% transparent;
+}
+
+a:active .blue_button_glow{
+    background:url("../../images/buttons/blue_buttons/blue_button_active.png") repeat-x scroll 50% 50% transparent;
+}
+
+.blue_button_inside_link{
+    color:#ffffff;
+    font-family:fantasy;
+    font-size:14px;
+    font-weight:bold;
+    height:31px;
+    padding-top:12px;
+    text-align:center;
+    text-decoration:none;
+    width:145px;
+}

@@ -1,0 +1,176 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+    <head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body>
+<div  class="recent_comments center_box_features" >
+    <div  class="center_artist_box_header "><a class="center_artist_box_link" href="#">Recent Comments</a></div>
+    <div class="recent_comments_content">
+        <ul class="recent_comments_list">
+
+            <li id="comments_first_item" class="general_comments_list_first_item recent_comments_default_list_item">
+            <div class="comments_profile_photo_container">
+                <a class="recent_comments_photo_link" href="#">
+                    <img class="recent_comments_photo" src="static/images/user/small/1/brokensword.bmp"/></a>
+            </div>
+            <textarea class="first_item_comments_field comments_field"> Write your comment...
+            </textarea>
+            <span class="first_item_recent_comments_date"> 22.02.2010</span>
+            <span id="recent_comments_reply_first_item" class="recent_comments_reply">
+                <a href="#" class="recent_comments_reply_button">
+                    <img class="recent_comments_button_image" src="static/images/buttons/gray_buttons/gray_button_default.png"/>
+                    <span class="comments_reply_button_link">Reply</span>
+                </a></span>
+            </li>
+
+            <li class="comments_replied_list_item recent_comments_default_list_item">
+            <div class="comments_profile_photo_container">
+                <a class="recent_comments_photo_link" href="#">
+                    <img class="recent_comments_photo" src="static/images/user/small/1/brokensword.bmp"/></a></div>
+            <div class="comments_field">
+                <a class="recent_comments_nick_name" href="#">brokensword : </a> I love Placebo!!!
+
+            </div>
+            <span class="recent_comments_date"> 22.02.2010</span>
+            <span class="recent_comments_reply">
+                <a href="#" class="recent_comments_view_all_link"> View all </a>
+                <a href="#" class="recent_comments_reply_link"> Reply </a></span>
+
+            <div class="subcomment_division">
+                <div class="subcomments_profile_photo_container">
+                    <a class="recent_comments_photo_link" href="#">
+                        <img class="recent_comments_photo_replied" src="static/images/user/small/1/brokensword.bmp"/></a></div>
+                <div class="subcomments_field">
+                    <a class="recent_comments_nick_name" href="#">metalsword : </a> I agree they are really great!!!
+                </div>
+                <span class="replied_recent_comments_date"> 22.02.2010</span>
+
+            </div>
+            <div class="subcomment_write subcomment_division">
+                <div class=" subcomments_profile_photo_container">
+                    <a class="recent_comments_photo_link" href="#">
+                        <img class="recent_comments_photo_replied" src="static/images/user/small/1/brokensword.bmp"/></a></div>
+                <textarea class="subcomments_write_field"> Write your comment...
+                </textarea>
+                <span class="replied_recent_comments_date"> 22.02.2010</span>
+                <span id="recent_comments_reply_first_item" class="recent_comments_reply">
+                    <a href="#" class="recent_comments_reply_button">
+                        <img class="subcomments_button_image" src="static/images/buttons/gray_buttons/gray_button_default.png"/>
+                        <span class="subcomments_reply_button_link">Reply</span>
+                    </a></span>
+
+            </div>
+
+            </li>
+            <li class="comments_replied_list_item recent_comments_default_list_item">
+            <div class="comments_profile_photo_container">
+                <a class="recent_comments_photo_link" href="#">
+                    <img class="recent_comments_photo" src="static/images/user/small/1/brokensword.bmp"/></a></div>
+            <div class="comments_field">
+                <a class="recent_comments_nick_name" href="#">brokensword : </a> I love Placebo!!!
+
+            </div>
+            <span class="recent_comments_date"> 22.02.2010</span>
+            <span class="recent_comments_reply">
+                <a href="#" class="recent_comments_view_all_link"> View all </a>
+                <a href="#" class="recent_comments_reply_link"> Reply </a></span>
+
+            <div class="subcomment_division">
+                <div class="subcomments_profile_photo_container">
+                    <a class="recent_comments_photo_link" href="#">
+                        <img class="recent_comments_photo_replied" src="static/images/user/small/1/brokensword.bmp"/></a></div>
+                <div class="subcomments_field">
+                    <a class="recent_comments_nick_name" href="#">metalsword : </a> I agree they are really great!!!
+                </div>
+                <span class="replied_recent_comments_date"> 22.02.2010</span>
+            </div>
+
+            </li>
+            <li class="comments_replied_list_item recent_comments_default_list_item">
+            <div class="comments_profile_photo_container">
+                <a class="recent_comments_photo_link" href="#">
+                    <img class="recent_comments_photo" src="static/images/user/small/1/brokensword.bmp"/></a></div>
+            <div class="comments_field">
+                <a class="recent_comments_nick_name" href="#">brokensword : </a> I love Placebo!!!
+
+            </div>
+            <span class="recent_comments_date"> 22.02.2010</span>
+            <span class="recent_comments_reply">
+                <a href="#" class="recent_comments_view_all_link"> View all </a>
+                <a href="#" class="recent_comments_reply_link"> Reply </a></span>
+
+            <div class="subcomment_division">
+                <div class="subcomments_profile_photo_container">
+                    <a class="recent_comments_photo_link" href="#">
+                        <img class="recent_comments_photo_replied" src="static/images/user/small/1/brokensword.bmp"/></a></div>
+                <div class="subcomments_field">
+                    <a class="recent_comments_nick_name" href="#">metalsword : </a> I agree they are really great!!!
+                </div>
+                <span class="replied_recent_comments_date"> 22.02.2010</span>
+            </div>
+
+            </li>
+            <li class="comments_replied_list_item recent_comments_default_list_item">
+            <div class="comments_profile_photo_container">
+                <a class="recent_comments_photo_link" href="#">
+                    <img class="recent_comments_photo" src="static/images/user/small/1/brokensword.bmp"/></a></div>
+            <div class="comments_field">
+                <a class="recent_comments_nick_name" href="#">brokensword : </a> I love Placebo!!!
+
+            </div>
+            <span class="recent_comments_date"> 22.02.2010</span>
+            <span class="recent_comments_reply">
+                <a href="#" class="recent_comments_view_all_link"> View all </a>
+                <a href="#" class="recent_comments_reply_link"> Reply </a></span>
+
+            <div class="subcomment_division">
+                <div class="subcomments_profile_photo_container">
+                    <a class="recent_comments_photo_link" href="#">
+                        <img class="recent_comments_photo_replied" src="static/images/user/small/1/brokensword.bmp"/></a></div>
+                <div class="subcomments_field">
+                    <a class="recent_comments_nick_name" href="#">metalsword : </a> I agree they are really great!!!
+                </div>
+                <span class="replied_recent_comments_date"> 22.02.2010</span>
+            </div>
+
+            </li>
+            <li class="comments_replied_list_item recent_comments_default_list_item">
+            <div class="comments_profile_photo_container">
+                <a class="recent_comments_photo_link" href="#">
+                    <img class="recent_comments_photo" src="static/images/user/small/1/brokensword.bmp"/></a></div>
+            <div class="comments_field">
+                <a class="recent_comments_nick_name" href="#">brokensword : </a> I love Placebo!!!
+
+            </div>
+            <span class="recent_comments_date"> 22.02.2010</span>
+            <span class="recent_comments_reply">
+                <a href="#" class="recent_comments_view_all_link"> View all </a>
+                <a href="#" class="recent_comments_reply_link"> Reply </a></span>
+
+            <div class="subcomment_division">
+                <div class="subcomments_profile_photo_container">
+                    <a class="recent_comments_photo_link" href="#">
+                        <img class="recent_comments_photo_replied" src="static/images/user/small/1/brokensword.bmp"/></a></div>
+                <div class="subcomments_field">
+                    <a class="recent_comments_nick_name" href="#">metalsword : </a> I agree they are really great!!!
+                </div>
+                <span class="replied_recent_comments_date"> 22.02.2010</span>
+            </div>
+
+            </li>
+
+
+
+
+        </ul>
+    </div>
+    <p class="see_more"> <a href="#">See more<img class="see_more_icon" alt="" src=""></a></p>
+</div>
+</body>
+</html>

@@ -1,0 +1,58 @@
+/* 
+    Document   : notification
+    Created on : 18.Şub.2011, 15:13:28
+    Author     : EREN
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+#notification_content{
+    background-color:#F1F1F1;
+    border:1px solid #AAAAAA;
+   
+}
+
+#notification_big_content{
+    
+}
+
+.all_not_list{
+
+}
+
+.general_not_list_item{
+    border-bottom: 1px solid #E1E1E1;
+    height: 21px;
+    padding-top: 7px;
+}
+
+.nt_fr_nick_request{
+    font-weight: bold;
+}
+
+.nt_fr_yes_no{
+    font-weight: bold;
+}
+
+
+.general_not_text{ 
+    margin-left: 42px;
+    position: relative;
+}
+
+.general_not_icon{
+    height: 14px;
+    margin-left: 15px;
+    margin-top: 1px;
+    position: absolute;
+}
+
+.general_not_date{
+    color: #777777;
+    margin-left: 4px;
+    position: relative;
+}

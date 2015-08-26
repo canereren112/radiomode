@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/!svn/ver/867/trunk/XMode/radiomode.web/src/main/webapp/WEB-INF/jsp/artist
+END
+artist_listeners.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/886/trunk/XMode/radiomode.web/src/main/webapp/WEB-INF/jsp/artist/artist_listeners.jsp
+END
+artist_activity.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/864/trunk/XMode/radiomode.web/src/main/webapp/WEB-INF/jsp/artist/artist_activity.jsp
+END
+artist_more_information.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/864/trunk/XMode/radiomode.web/src/main/webapp/WEB-INF/jsp/artist/artist_more_information.jsp
+END
+artist_biography.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/864/trunk/XMode/radiomode.web/src/main/webapp/WEB-INF/jsp/artist/artist_biography.jsp
+END
+artist_albums.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/886/trunk/XMode/radiomode.web/src/main/webapp/WEB-INF/jsp/artist/artist_albums.jsp
+END
+artist_popular_songs.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/!svn/ver/886/trunk/XMode/radiomode.web/src/main/webapp/WEB-INF/jsp/artist/artist_popular_songs.jsp
+END
+artist_general.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/886/trunk/XMode/radiomode.web/src/main/webapp/WEB-INF/jsp/artist/artist_general.jsp
+END
+albums.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/!svn/ver/854/trunk/XMode/radiomode.web/src/main/webapp/WEB-INF/jsp/artist/albums.jsp
+END
+artist_similiar_artists.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/886/trunk/XMode/radiomode.web/src/main/webapp/WEB-INF/jsp/artist/artist_similiar_artists.jsp
+END

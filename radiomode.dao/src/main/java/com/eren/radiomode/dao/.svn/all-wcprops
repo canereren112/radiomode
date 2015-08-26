@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/!svn/ver/811/trunk/XMode/radiomode.dao/src/main/java/com/eren/radiomode/dao
+END
+SongDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/888/trunk/XMode/radiomode.dao/src/main/java/com/eren/radiomode/dao/SongDAO.java
+END
+CountryDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/726/trunk/XMode/radiomode.dao/src/main/java/com/eren/radiomode/dao/CountryDAO.java
+END
+ArtistDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/!svn/ver/888/trunk/XMode/radiomode.dao/src/main/java/com/eren/radiomode/dao/ArtistDAO.java
+END
+LanguageDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/726/trunk/XMode/radiomode.dao/src/main/java/com/eren/radiomode/dao/LanguageDAO.java
+END
+TagDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/811/trunk/XMode/radiomode.dao/src/main/java/com/eren/radiomode/dao/TagDAO.java
+END
+EmailListDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/726/trunk/XMode/radiomode.dao/src/main/java/com/eren/radiomode/dao/EmailListDAO.java
+END
+UserDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/726/trunk/XMode/radiomode.dao/src/main/java/com/eren/radiomode/dao/UserDAO.java
+END
+RadioDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/683/trunk/XMode/radiomode.dao/src/main/java/com/eren/radiomode/dao/RadioDAO.java
+END
+VideoDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/797/trunk/XMode/radiomode.dao/src/main/java/com/eren/radiomode/dao/VideoDAO.java
+END
+ListenHistoryDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/!svn/ver/757/trunk/XMode/radiomode.dao/src/main/java/com/eren/radiomode/dao/ListenHistoryDAO.java
+END
+AlbumDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/888/trunk/XMode/radiomode.dao/src/main/java/com/eren/radiomode/dao/AlbumDAO.java
+END
+CommentDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/769/trunk/XMode/radiomode.dao/src/main/java/com/eren/radiomode/dao/CommentDAO.java
+END
+UserActivationDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/!svn/ver/811/trunk/XMode/radiomode.dao/src/main/java/com/eren/radiomode/dao/UserActivationDAO.java
+END

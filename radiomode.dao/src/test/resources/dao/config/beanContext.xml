@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+       http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+       http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
+       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+    <context:annotation-config />
+
+    <!-- DAO Siniflari-->
+    <bean id="entityDAOFactory" class="com.eren.radiomode.dao.parent.EntityDAOFactory" autowire="byName">
+    </bean>
+
+    <bean id="entityDAO" class="com.eren.radiomode.dao.parent.EntityDAO" autowire="byName">
+    </bean>
+
+    <bean id="albumDAO" class="com.eren.radiomode.dao.impl.AlbumDAOImpl" parent="entityDAO" autowire="byName">
+    </bean>
+
+    <bean id="artistDAO" class="com.eren.radiomode.dao.impl.ArtistDAOImpl" parent="entityDAO" autowire="byName">
+    </bean>
+
+    <bean id="blockedUsersDAO" class="com.eren.radiomode.dao.impl.BlockedUsersDAOImpl" parent="entityDAO" autowire="byName">
+    </bean>
+
+    <bean id="cityDAO" class="com.eren.radiomode.dao.impl.CityDAOImpl" parent="entityDAO" autowire="byName">
+    </bean>
+
+    <bean id="commentDAO" class="com.eren.radiomode.dao.impl.CommentDAOImpl" parent="entityDAO" autowire="byName">
+    </bean>
+
+    <bean id="concertRequestDAO" class="com.eren.radiomode.dao.impl.ConcertRequestDAOImpl" parent="entityDAO" autowire="byName">
+    </bean>
+
+    <bean id="contentDAO" class="com.eren.radiomode.dao.impl.ContentDAOImpl" parent="entityDAO" autowire="byName">
+    </bean>
+
+    <bean id="countryDAO" class="com.eren.radiomode.dao.impl.CountryDAOImpl" parent="entityDAO" autowire="byName">
+    </bean>
+
+    <bean id="dataCollectionDAO" class="com.eren.radiomode.dao.impl.DataCollectionDAOImpl" parent="entityDAO" autowire="byName">
+    </bean>
+
+    <bean id="emailListDAO" class="com.eren.radiomode.dao.impl.EmailListDAOImpl" parent="entityDAO" autowire="byName">
+    </bean>
+
+    <bean id="eventDAO" class="com.eren.radiomode.dao.impl.EventDAOImpl" parent="entityDAO" autowire="byName">
+    </bean>
+
+    <bean id="froumDAO" class="com.eren.radiomode.dao.impl.ForumDAOImpl" parent="entityDAO" autowire="byName">
+    </bean>
+
+    <bean id="friendListDAO" class="com.eren.radiomode.dao.impl.FriendListDAOImpl" parent="entityDAO" autowire="byName">
+    </bean>
+
+    <bean id="genreDAO" class="com.eren.radiomode.dao.impl.GenreDAOImpl" parent="entityDAO" autowire="byName">
+    </bean>
+
+    <bean id="groupDAO" class="com.eren.radiomode.dao.impl.GroupDAOImpl" parent="entityDAO" autowire="byName">
+    </bean>
+
+    <bean id="languageDAO" class="com.eren.radiomode.dao.impl.LanguageDAOImpl" parent="entityDAO" autowire="byName">
+    </bean>
+
+    <bean id="listenHistoryDAO" class="com.eren.radiomode.dao.impl.ListenHistoryDAOImpl" parent="entityDAO" autowire="byName">
+    </bean>
+
+    <bean id="messageDAO" class="com.eren.radiomode.dao.impl.MessageDAOImpl" parent="entityDAO" autowire="byName">
+    </bean>
+
+    <bean id="newsDAO" class="com.eren.radiomode.dao.impl.NewsDAOImpl" parent="entityDAO" autowire="byName">
+    </bean>
+
+    <bean id="radioDAO" class="com.eren.radiomode.dao.impl.RadioDAOImpl" parent="entityDAO" autowire="byName">
+    </bean>
+
+    <bean id="songDAO" class="com.eren.radiomode.dao.impl.SongDAOImpl" parent="entityDAO" autowire="byName">
+    </bean>
+
+    <bean name="userActivationDAO" class="com.eren.radiomode.dao.impl.UserActivationDAOImpl" parent="entityDAO" autowire="byName">
+    </bean>
+
+    <bean id="userDAO" class="com.eren.radiomode.dao.impl.UserDAOImpl" parent="entityDAO" autowire="byName">
+    </bean>
+
+    <bean id="videoDAO" class="com.eren.radiomode.dao.impl.VideoDAOImpl" parent="entityDAO" autowire="byName">
+    </bean>
+
+    <bean id="tagDAO" class="com.eren.radiomode.dao.impl.TagDAOImpl" parent="entityDAO" autowire="byName">
+    </bean>
+    <!-- DAO Siniflari-->
+
+</beans>

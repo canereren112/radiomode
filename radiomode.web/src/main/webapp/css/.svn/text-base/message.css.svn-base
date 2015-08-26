@@ -1,0 +1,310 @@
+/* 
+    Document   : message
+    Created on : 02.Oca.2011, 17:59:49
+    Author     : EREN
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+
+
+.message_friend_photo_link{
+    margin-left: 10px;
+    position: absolute;
+    z-index: 2;
+}
+
+.message_friend_photo_link:hover{
+    background: none;
+}
+
+.message_profile_frame{
+    height: 60px;
+    margin-top: 10px;
+    position: absolute;
+}
+
+.message_profile_photo{
+    height: 54px;
+    margin-left: 7px;
+    margin-top: 13px;
+    position: absolute;
+    width: 54px;
+}
+
+.message_profile_nickname{
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: -10px;
+    position: absolute;
+
+}
+
+.message_profile_date{
+    display: block;
+    margin-top: -10px;
+    position: relative;
+}
+
+.messages_table_data_1{
+    padding-right: 10px;
+    position: absolute;
+    width: 100px;
+}
+
+.messages_table_data_2{
+    padding-left: 100px;
+    padding-right: 10px;
+    position: relative;
+    width: 101px;
+}
+
+.messages_table_data_3{
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 400px;
+}
+
+.message_profile_header{
+    color: #666666;
+    font-size: 14px;
+    margin-top: -10px;
+    position: absolute;
+}
+
+.message_profile_header:hover{
+    color: #0094D6;
+}
+
+.message_profile_content{
+    display: block;
+    margin-top: 5px;;
+}
+.read_message_friend_photo_link{
+    float:left;
+    margin-left: 10px;
+}
+
+.read_message_friend_photo_link:hover{
+    background: none;
+}
+
+.read_message_profile_photo{
+    border:1px solid #CCCCCC;
+    height:50px;
+    margin-bottom:7px;
+    padding:1px;
+    width:50px;
+
+}
+
+.read_message_profile_nickname{
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 1px;
+    position: absolute;
+
+}
+
+.read_message_profile_date{
+    display: block;
+    margin-top: -26px;
+    position: relative;
+}
+
+.read_messages_table_data_1{
+    padding-right: 10px;
+}
+
+.read_messages_table_data_2{
+    padding-left: 20px;
+    padding-right: 10px;
+    position: absolute;
+    width: 180px;
+}
+
+.read_messages_table_data_3{
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 558px;
+}
+
+.read_message_profile_header{
+    font-size: 14px;
+    margin-left: 15px;
+    margin-top: -2px;
+    position: absolute;
+
+}
+
+.read_message_profile_content{
+    display: block;
+    margin-top: 5px;;
+}
+
+.messages_table_row{
+    position: relative;
+}
+
+.message_read_check{
+    margin-left: 10px;
+}
+.messages_table td{
+    height: 89px;
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+
+.messages_check_box{
+    width : 30px;
+}
+
+.message_checkbox{
+    margin-left: 10px;
+}
+
+.messages_table_data_4{
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 95px;
+}
+
+.read_messages_table_data_4{
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 100px;
+}
+
+.read_messages{
+
+
+}
+
+.messages_table_row_unreaded{
+    background-color: #d8eff8;
+}
+
+.message_read_check_photo{
+    height: 15px;
+}
+
+.messages_header_links_div{
+    border-bottom: 1px solid #DDDDDD;
+    height: 20px;
+    padding-left: 35px;
+}
+
+.messages_header_links{
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.message_delete{
+    margin-left: 374px;
+}
+
+.messages_table{
+
+}
+
+.create_message_table{
+    padding: 10px;
+}
+
+.create_message_table_row{
+
+}
+
+.create_message_table_data_1{
+    color: #0094D6;
+    font-size: 13px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    width: 120px;
+}
+
+.create_message_table_data_2{
+    padding-bottom: 20px;
+}
+
+.create_message_table_1_span{
+    color: #0094D6;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 8px;
+    position: absolute
+}
+
+.create_message_reciever{
+
+}
+
+.reply_message_reciever{
+    
+}
+
+.create_message_subject{
+
+}
+
+.create_message_content{
+    height: 150px;
+    margin-left: 20px;
+    width: 400px;
+}
+
+.create_message_table_data_2 input{
+    margin-left: 20px;
+    width: 400px;
+}
+
+.create_messsage_content_data_1{
+    margin-top: 6px;
+    position: absolute;
+}
+
+.create_message_send_link{
+    margin-left: 320px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.reply_message_send_link{
+    margin-left: 320px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+
+.create_message_link{
+    float: right;
+    margin-right: 20px;
+}
+
+#message_content{
+    background-color:#F1F1F1;
+    border:1px solid #AAAAAA;
+
+}
+
+#message_big_content{
+
+}
+
+.message_reply_link{
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 648px;
+    margin-top: 10px;
+}

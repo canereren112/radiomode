@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/!svn/ver/846/trunk/XMode/radiomode.web/src/main/webapp/WEB-INF/jsp/profile/music_box
+END
+profile_music_box_album.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repos/!svn/ver/846/trunk/XMode/radiomode.web/src/main/webapp/WEB-INF/jsp/profile/music_box/profile_music_box_album.jsp
+END
+profile_music_box_artist.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repos/!svn/ver/846/trunk/XMode/radiomode.web/src/main/webapp/WEB-INF/jsp/profile/music_box/profile_music_box_artist.jsp
+END
+profile_music_box_song.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/!svn/ver/846/trunk/XMode/radiomode.web/src/main/webapp/WEB-INF/jsp/profile/music_box/profile_music_box_song.jsp
+END

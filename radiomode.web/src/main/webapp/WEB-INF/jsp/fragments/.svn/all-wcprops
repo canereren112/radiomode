@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/!svn/ver/868/trunk/XMode/radiomode.web/src/main/webapp/WEB-INF/jsp/fragments
+END
+down_panel.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/824/trunk/XMode/radiomode.web/src/main/webapp/WEB-INF/jsp/fragments/down_panel.jsp
+END
+navigasyon_bar.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/639/trunk/XMode/radiomode.web/src/main/webapp/WEB-INF/jsp/fragments/navigasyon_bar.jsp
+END
+includes.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/886/trunk/XMode/radiomode.web/src/main/webapp/WEB-INF/jsp/fragments/includes.jsp
+END
+wrapper_up_panel.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/!svn/ver/867/trunk/XMode/radiomode.web/src/main/webapp/WEB-INF/jsp/fragments/wrapper_up_panel.jsp
+END
+up_panel.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/639/trunk/XMode/radiomode.web/src/main/webapp/WEB-INF/jsp/fragments/up_panel.jsp
+END
+main_includes.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/886/trunk/XMode/radiomode.web/src/main/webapp/WEB-INF/jsp/fragments/main_includes.jsp
+END
+down_panel_content.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/824/trunk/XMode/radiomode.web/src/main/webapp/WEB-INF/jsp/fragments/down_panel_content.jsp
+END

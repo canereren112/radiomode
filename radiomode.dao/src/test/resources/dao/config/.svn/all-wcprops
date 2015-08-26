@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/!svn/ver/811/trunk/XMode/radiomode.dao/src/test/resources/dao/config
+END
+beanContext.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/!svn/ver/811/trunk/XMode/radiomode.dao/src/test/resources/dao/config/beanContext.xml
+END
+hibernate.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/797/trunk/XMode/radiomode.dao/src/test/resources/dao/config/hibernate.cfg.xml
+END

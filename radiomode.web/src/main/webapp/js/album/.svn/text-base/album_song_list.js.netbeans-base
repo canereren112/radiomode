@@ -1,0 +1,20 @@
+/* 
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+
+$(document).ready(function() {
+ 
+    
+    
+    // Paging Parameters
+   
+    var divId = "#album_song_paging"; 
+    var pageNumber = $(".songPageNumberOfAlbum").text();
+    
+    makeDivPaginate(divId, pageNumber.valueOf(),  1, 5); 
+   
+   
+
+});

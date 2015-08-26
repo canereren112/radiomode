@@ -1,0 +1,49 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package com.eren.radiomode.service;
+
+import com.eren.radiomode.domain.Tag;
+import com.eren.radiomode.domain.album.Album;
+import com.eren.radiomode.domain.artist.Artist;
+import com.eren.radiomode.domain.song.Song;
+import com.eren.radiomode.domain.song.SongStats;
+import com.eren.radiomode.domain.song.SongTags;
+import com.eren.radiomode.domain.user.User;
+import java.util.List;
+
+/**
+ *
+ * @author work
+ */
+public interface SongService {
+
+    void saveSong(Artist artist, String songName);
+
+    List<Song> getAllSongs();
+
+    List<SongStats> getSongswithNoVideos(int first, int max);
+
+    List<Song> getSongsByArtist(Artist artist);
+
+    List<SongStats> getSongStatsByArtist(Artist artist);
+
+    List<Song> searchSongsLikeName(String name, int limit);
+
+    void loveSong(Integer songid, User user);
+
+    List<Song> getSongsByAlbum(Album album);
+
+    List<Song> getSongOfAlbumByPage(Album album, Integer pageNumber);
+
+    Integer getNumberOfSongs(Integer albumID);
+
+    List<SongStats> getTopsSongsByPageOfArtist(Artist artist, Integer pageNumber);
+
+    List<SongStats> getTopSongsByArtist(Artist artist, int first, int max);
+
+    List<SongTags> getTopSongsByTag(Tag tag, int first, int max);
+
+    List<SongStats> getTopSongs(int first, int max);
+}

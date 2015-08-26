@@ -1,0 +1,283 @@
+/* 
+    Document   : album
+    Created on : 20.Eyl.2010, 17:28:23
+    Author     : firat
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+#album_big_content{
+
+}
+
+#album_content{
+
+}
+
+#album_store_box{
+    height:410px;
+}
+
+#album_singer_brief{
+    height:370px;
+    padding-top:5px;
+}
+
+#album_listeners_box{
+    height:440px;
+}
+
+#album_song_list_id{
+
+}
+
+#album_song_list_header{
+    border-top: none;
+}
+
+
+#singer_album_case{
+    height:135px;
+    margin-left:15px;
+    margin-top:10px;
+    position:relative;
+    width:155px;
+}
+
+#singer_album_name{
+
+}
+
+.album_singer_brief_buttons{
+    margin-top: 16px;
+    padding-left: 45px;
+    position: relative;
+}
+
+.album_singer_brief_statistics{
+    border-top: 1px solid #AAAAAA;
+    color: #777777;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 15px;
+}
+
+.album_singer_brief_statistics_list{
+    list-style: none;
+    margin-top:5px;
+    margin-left:15px;
+}
+
+#album_singer_brief_down{
+    height:135px;
+}
+
+#album_singer_picture{
+    height:129px;
+    margin-left:20px;
+    width:131px;
+}
+
+#album_singer_brief_front{
+    height:135px;
+}
+
+.song_list_blue_button_coquette{
+    height:13px;
+    margin-left:4px;
+    margin-top:6px;
+    position:absolute;
+}
+
+.album_song_list{
+    font-size: 11px;
+    list-style-type: none;
+    margin: -1px 20px 0;
+}
+
+.song_list_item{
+    padding-bottom: 6px;
+    padding-top: 6px;
+    height: 22px;
+}
+
+li.song_list_item:hover{
+    background-color: #CFECF7;
+}
+
+.song_list_name{
+    float:left;
+    margin-left:10px;
+    margin-top: 2px;
+    font-size: 11px;
+    color:#444444;
+}
+
+.song_list_duration{
+    float:right;
+    margin-right:40px;
+    margin-top:5px;
+}
+
+.song_list_listened{
+    float: right;
+    margin-right:10px;
+    margin-top:2px
+}
+.song_list_icon_link{
+    float: left;
+    margin-left:5px;
+}
+
+.album_song_list_grid_1{
+    border-bottom: 1px solid #FFFFFF;
+    border-top: 1px solid #FFFFFF;
+}
+
+
+
+.song_list_duration_link{
+    float:right;
+    margin-right:38px;
+
+}
+
+.song_list_listeners_link{
+    float:right;
+    margin-right:20px;
+}
+
+.duration_listeners_header{
+    color:#222222;
+    font-size:11px;
+    height:20px;
+    margin-top:5px;
+    text-decoration:underline;
+}
+
+
+.album_more_information_header{
+    color: #0094D6;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.album_more_information_table tr{
+    height: 30px;
+}
+
+.album_more_information_table td{
+    padding-right: 30px;
+}
+
+.album_more_information_table{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.album_songs_box_buttons{
+    left: 350px;
+    margin-top: 0;
+    position: absolute;
+}
+
+
+.album_songs_photo{
+    float: left;
+    height: 34px;
+    margin-top: -6px;
+    width: 34px;
+}
+
+.album_brief_header{
+    margin-left: 0px;
+}
+
+.album_name_header{
+    display: block;
+    padding-left: 15px;
+    padding-right: 10px;
+    width: 180px;
+}
+
+.album_default_buttons{
+    padding-left: 25px;
+    width: 70px;
+}
+
+.album_general_songs_box_buttons{
+    left: 450px;
+    margin-top: 8px;
+    position: absolute;
+}
+
+.album_more_songs_box_buttons{
+    left: 450px;
+    margin-top: -30px;
+    position: absolute;F
+}
+
+.songPageNumberOfAlbum{
+    display : none;
+}
+
+.songIndexOfAlbum{
+    display : none;
+}
+
+.songNameOfAlbum{
+    display : none;
+}
+
+.songAlbumID{
+    display : none;
+}
+
+.album_albums_other_hidden_span{
+    background-color: white;
+    height: 5px;
+    margin-left: 1px;
+    margin-top: 31px;
+    position: absolute;
+    width: 106px;
+}
+
+.album_albums_similar_hidden_span{
+    background-color: white;
+    height: 5px;
+    margin-left: 108px;
+    margin-top: 31px;
+    position: absolute;
+    width: 109px;
+    display:none;
+}
+
+.album_album_song_list_name{
+    color: #444444;
+    margin-left: 15px;
+    margin-top: 8px;
+    position: absolute;
+}
+
+.album_album_song_list_duration{
+    margin-left: 544px;
+    margin-top: 8px;
+    position: absolute;
+}
+
+.album_album_song_list_listened{
+
+    margin-left: 650px;
+    margin-top: 8px;
+    position: absolute;
+}

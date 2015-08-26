@@ -1,0 +1,20 @@
+/* 
+    Document   : ie-album
+    Created on : 03.Nis.2011, 20:51:33
+    Author     : EREN
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+.ie_album_blue_default_buttons{
+    width: 75px;
+}

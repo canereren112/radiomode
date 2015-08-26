@@ -1,0 +1,36 @@
+* main.jsp
+- signup panel de email ve username check edilirken yanda ajax load simgesi görünecek.
+- signup bitirilecek.
+- login yapilacak.
+- password sifreli olarak veritabanında saklanacak.
+
+* home.jsp
+
+* profile.jsp
+- fotolar eklenirken mypictr nin linki verilecek.
+- last.fm deki gibi küçükfotolar için 64 px genişlik, büyükler için de 128 genişlik
+  sabit olcak şekilde yükseklikler hesaplanıp öyle kaydedilecek
+- foto upload edilirken dizinlerdeki foto sayısı 3000 i geçerse yeni klasör oluşturulup oraya kaydedilecek.
+
+* edit_profile/general.jsp
+- city eklenecek?
+- client side validation yapilacak.
+- form tag ine gore tekrar duzenlenecek
+
+* edit_profile/password.jsp
+- client side validation yapilacak.
+- donus mesaji ayarlanacak.
+
+* edit_profile/email.jsp
+- client side validation yapilacak.
+- donus mesaji ayarlanacak.
+
+* edit_profile/photo.jsp
+- en bastan yapilacak
+
+* artist.jsp
+- general stats ın altında user stats da olacak.
+- similiar artists sayfasında last.fm deki gibi bi çubukla benzerlik oranı yapılacak.
+- similiar artists sayfasında ilike taki gibi yes/no ve suggest a smiliar artist olayı yapılacak.
+
+* radio.jsp

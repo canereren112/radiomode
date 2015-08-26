@@ -1,0 +1,271 @@
+/* 
+    Document   : music
+    Created on : 19.Oca.2011, 02:11:38
+    Author     : EREN
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+
+#music_big_content{
+
+}
+
+#music_content{
+}
+.music_genres_list{
+    margin-top: 3px;
+}
+
+.music_genres_list li{
+    border-bottom: 1px dotted #AAAAAA;
+    padding: 3px 2px 1px 10px;
+}
+
+.music_genres_part{
+    float: left;
+    width: 94px;
+}
+
+.music_genres_list_header{
+
+}
+
+.music_right_part{
+    margin-left: 100px;
+    min-height: 200px;
+    padding-left: 20px;
+    position: relative;
+    width: 522px;
+}
+
+.music_genrefirst_item{
+    border-top: 1px dotted #AAAAAA;
+}
+
+.music_genres_header{
+    color: #666666;
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 16px;
+}
+
+.music_overlay_features{
+    height: 50px;
+    margin-top: 10px;
+    position: absolute;
+    z-index: 2;
+}
+
+.music_poster_features{
+    position: absolute;
+    width: 100px;
+    z-index: 1;
+}
+
+.artist_list_item_left{
+    width: 200px;
+}
+
+.artist_list_item_right{
+    margin-left: 140px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-top: 6px;
+}
+
+.music_artist_list{
+
+}
+
+.music_artist_name_link{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.music_artist_biography{
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.music_artist_list li{
+    border-bottom: 1px solid #E1E1E1;
+    min-height: 150px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+
+.album_list_item_left{
+    float: left;
+    margin-left: 20px;
+    position: static;
+    width: 200px;
+}
+
+.album_list_item_right{
+    float: left;
+    margin-left: 180px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-top: 6px;
+}
+
+.music_album_list{
+
+}
+
+.music_album_name_link{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+
+
+.music_album_list li{
+    border-bottom: 1px solid #E1E1E1;
+    min-height: 145px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.music_album_artist_name{
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+
+.song_list_item_left{
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    position: static;
+    width: 150px;
+}
+
+.song_list_item_right{
+    margin-left: 180px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-top: 6px;
+}
+
+.music_song_list{
+
+}
+
+.music_song_name_link{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+.music_song_biography{
+    margin-top: 10px;
+}
+
+.music_song_list li{
+    border-bottom: 1px solid #E1E1E1;
+    min-height: 124px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.music_photo{
+    height: 100px;
+    margin: 10px 11px 15px 0;
+    position: absolute;
+    width: 125px;
+    z-index: 0;
+}
+
+.recommendation_photo{
+    height:125px;
+    margin:14px 11px 15px 10px;
+    position:absolute;
+    width:81px;
+    z-index:0;
+}
+
+.music_song_photo{
+    height: 100px;
+    margin-left: 0;
+    position: absolute;
+    width: 125px;
+}
+
+
+#recommendation_big_content{
+    
+}
+
+#recommendation_content{
+  
+}
+
+.recommendation_list_item_right{
+    margin-left: 170px;
+    padding-bottom: 24px;
+    padding-right: 5px;
+    padding-top: 10px;
+    width: 550px;
+}
+
+.recommended_buttons a{
+    margin-top: 0;
+}
+
+.recommended_buttons span{
+    display:inline;
+    display: inline;
+    float: left;
+}
+
+.recommended_buttons_2{
+    margin-left:60px;
+}
+
+.recommended_buttons{
+    margin-top: 20px;
+}
+
+.new_blue_button{
+    padding-right: 20px;
+    padding-left: 25px;
+    width:auto;
+}
+
+.music_song_overlay{
+    height: 61px;
+    margin-left: 0;
+    margin-top: 0;
+    position: absolute;
+    z-index: 3;
+}
+
+.music_album_picture{
+    height: 125px;
+    margin: 10px 11px 15px 0;
+    position: absolute;
+    width: 125px;
+    z-index: 0;
+}
+
+.music_album_overlay{
+    height: 65px;
+    margin-top: 10px;
+    position: absolute;
+}

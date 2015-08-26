@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/!svn/ver/864/trunk/XMode/radiomode.web/src/main/webapp/WEB-INF/jsp/edit_profile
+END
+general.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/877/trunk/XMode/radiomode.web/src/main/webapp/WEB-INF/jsp/edit_profile/general.jsp
+END
+password.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/864/trunk/XMode/radiomode.web/src/main/webapp/WEB-INF/jsp/edit_profile/password.jsp
+END
+email.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/877/trunk/XMode/radiomode.web/src/main/webapp/WEB-INF/jsp/edit_profile/email.jsp
+END
+photo.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/864/trunk/XMode/radiomode.web/src/main/webapp/WEB-INF/jsp/edit_profile/photo.jsp
+END

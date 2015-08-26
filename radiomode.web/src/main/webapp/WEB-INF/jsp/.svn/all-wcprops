@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/!svn/ver/873/trunk/XMode/radiomode.web/src/main/webapp/WEB-INF/jsp
+END
+message.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/!svn/ver/864/trunk/XMode/radiomode.web/src/main/webapp/WEB-INF/jsp/message.jsp
+END
+artist.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/!svn/ver/886/trunk/XMode/radiomode.web/src/main/webapp/WEB-INF/jsp/artist.jsp
+END
+error_page_default.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/864/trunk/XMode/radiomode.web/src/main/webapp/WEB-INF/jsp/error_page_default.jsp
+END
+main.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/!svn/ver/877/trunk/XMode/radiomode.web/src/main/webapp/WEB-INF/jsp/main.jsp
+END
+recommendation.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/!svn/ver/864/trunk/XMode/radiomode.web/src/main/webapp/WEB-INF/jsp/recommendation.jsp
+END
+profile.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/!svn/ver/864/trunk/XMode/radiomode.web/src/main/webapp/WEB-INF/jsp/profile.jsp
+END
+notification.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/866/trunk/XMode/radiomode.web/src/main/webapp/WEB-INF/jsp/notification.jsp
+END
+radio.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/!svn/ver/864/trunk/XMode/radiomode.web/src/main/webapp/WEB-INF/jsp/radio.jsp
+END
+home.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/!svn/ver/842/trunk/XMode/radiomode.web/src/main/webapp/WEB-INF/jsp/home.jsp
+END
+album.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/!svn/ver/864/trunk/XMode/radiomode.web/src/main/webapp/WEB-INF/jsp/album.jsp
+END
+test.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/!svn/ver/739/trunk/XMode/radiomode.web/src/main/webapp/WEB-INF/jsp/test.jsp
+END
+edit_profile.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/864/trunk/XMode/radiomode.web/src/main/webapp/WEB-INF/jsp/edit_profile.jsp
+END
+music.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/!svn/ver/864/trunk/XMode/radiomode.web/src/main/webapp/WEB-INF/jsp/music.jsp
+END
+error_page.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/!svn/ver/864/trunk/XMode/radiomode.web/src/main/webapp/WEB-INF/jsp/error_page.jsp
+END
